@@ -1,0 +1,108 @@
+import type { DemoVerticalConfig } from './types';
+
+export const DEMOS_GROUP_A: readonly DemoVerticalConfig[] = [
+  {
+    slug: 'marketing-agency',
+    numberLabel: '01',
+    accessMode: 'open_link',
+    companyName: 'Bergmann Digital Performance GmbH',
+    city: 'München',
+    clientName: 'TechVision DACH GmbH',
+    offerReference: 'ANG-2026-MUC-041',
+    headlineValue: '14.800 € / Quartal',
+    accent: {
+      badgeClasses: 'border-violet-500/30 bg-violet-500/15 text-violet-300',
+      borderHoverClasses: 'hover:border-violet-500/50',
+      glowClasses: 'from-violet-500/15 via-transparent to-transparent',
+      chipClasses: 'bg-violet-500/10 text-violet-300 border-violet-500/20',
+      primaryButtonClasses: 'bg-violet-500 hover:bg-violet-400 text-zinc-950',
+    },
+    documents: [
+      { id: 'mkt-doc-1', fileName: 'Angebot_Q2_TechVision_DACH.pdf', fileType: 'PDF', sizeLabel: '2.4 MB', indexedChunks: 34 },
+      { id: 'mkt-doc-2', fileName: 'Mediaplan_LinkedIn_Google_2026.xlsx', fileType: 'XLSX', sizeLabel: '840 KB', indexedChunks: 22 },
+      { id: 'mkt-doc-3', fileName: 'Creative_Roadmap_KPIs.pdf', fileType: 'PDF', sizeLabel: '5.1 MB', indexedChunks: 19 },
+    ],
+    dossierSections: [
+      { id: 'mkt-sec-1', badge: '§ 1 • BUDGET & MEDIAMIX', highlightMetric: '14.800 € Netto / Quartal' },
+      { id: 'mkt-sec-2', badge: '§ 2 • KPI & ROI PROGNOSE', highlightMetric: '85–110 MQLs / Quartal' },
+    ],
+  },
+  {
+    slug: 'real-estate',
+    numberLabel: '02',
+    accessMode: 'open_link',
+    companyName: 'Von Kronberg Immobilien GmbH',
+    city: 'München',
+    clientName: 'Dr. Tobias & Elena Hartmann',
+    offerReference: 'EXP-MUC-2026-884',
+    headlineValue: '2.450.000 €',
+    accent: {
+      badgeClasses: 'border-amber-500/30 bg-amber-500/15 text-amber-300',
+      borderHoverClasses: 'hover:border-amber-500/50',
+      glowClasses: 'from-amber-500/15 via-transparent to-transparent',
+      chipClasses: 'bg-amber-500/10 text-amber-300 border-amber-500/20',
+      primaryButtonClasses: 'bg-amber-400 hover:bg-amber-300 text-zinc-950',
+    },
+    documents: [
+      { id: 're-doc-1', fileName: 'Expose_Penthouse_Bogenhausen_218qm.pdf', fileType: 'PDF', sizeLabel: '8.2 MB', indexedChunks: 41 },
+      { id: 're-doc-2', fileName: 'Energieausweis_KfW55_Bayern.pdf', fileType: 'PDF', sizeLabel: '1.1 MB', indexedChunks: 14 },
+      { id: 're-doc-3', fileName: 'Kaufvertragsentwurf_Notar_MUC.docx', fileType: 'DOCX', sizeLabel: '620 KB', indexedChunks: 29 },
+    ],
+    dossierSections: [
+      { id: 're-sec-1', badge: 'OBJEKT • ISARHOCHUFER', highlightMetric: '218 m² • 4,5 Zimmer • A+' },
+      { id: 're-sec-2', badge: '§ KAUFABWICKLUNG BAYERN', highlightMetric: 'Bezugsfrei ab 01.07.2026' },
+    ],
+  },
+  {
+    slug: 'auto-leasing',
+    numberLabel: '03',
+    accessMode: 'open_link',
+    companyName: 'Autohaus Stern Premium Leasing',
+    city: 'Stuttgart',
+    clientName: 'Stefan Becker (Geschäftsführer)',
+    offerReference: 'LEA-STR-2026-904',
+    headlineValue: '1.190 € / Monat',
+    accent: {
+      badgeClasses: 'border-sky-500/30 bg-sky-500/15 text-sky-300',
+      borderHoverClasses: 'hover:border-sky-500/50',
+      glowClasses: 'from-sky-500/15 via-transparent to-transparent',
+      chipClasses: 'bg-sky-500/10 text-sky-300 border-sky-500/20',
+      primaryButtonClasses: 'bg-sky-400 hover:bg-sky-300 text-zinc-950',
+    },
+    documents: [
+      { id: 'auto-doc-1', fileName: 'Leasingkalkulation_Taycan4S_48M.pdf', fileType: 'PDF', sizeLabel: '1.6 MB', indexedChunks: 26 },
+      { id: 'auto-doc-2', fileName: 'DEKRA_VIN_WP0ZZZ99ZPS_Report.pdf', fileType: 'PDF', sizeLabel: '3.2 MB', indexedChunks: 18 },
+      { id: 'auto-doc-3', fileName: 'Ausstattungsliste_Porsche_Approved.pdf', fileType: 'PDF', sizeLabel: '980 KB', indexedChunks: 15 },
+    ],
+    dossierSections: [
+      { id: 'auto-sec-1', badge: 'VIN: WP0ZZZ99ZPS214890', highlightMetric: '1.190 € Netto / Mon.' },
+      { id: 'auto-sec-2', badge: 'SERVICE & LIEFERUNG', highlightMetric: 'Sofort verfügbar' },
+    ],
+  },
+  {
+    slug: 'medical-clinic',
+    numberLabel: '04',
+    accessMode: 'open_link',
+    companyName: 'Praxis Dr. med. dent. Weber',
+    city: 'Frankfurt am Main',
+    clientName: 'Patientin: Katrin Hoffmann',
+    offerReference: 'HKP-FFM-2026-312',
+    headlineValue: '6.850 € (Eigenanteil 3.940 €)',
+    accent: {
+      badgeClasses: 'border-rose-500/30 bg-rose-500/15 text-rose-300',
+      borderHoverClasses: 'hover:border-rose-500/50',
+      glowClasses: 'from-rose-500/15 via-transparent to-transparent',
+      chipClasses: 'bg-rose-500/10 text-rose-300 border-rose-500/20',
+      primaryButtonClasses: 'bg-rose-400 hover:bg-rose-300 text-zinc-950',
+    },
+    documents: [
+      { id: 'med-doc-1', fileName: 'Heil_und_Kostenplan_HKP_312.pdf', fileType: 'PDF', sizeLabel: '1.2 MB', indexedChunks: 24 },
+      { id: 'med-doc-2', fileName: 'Ablaufplan_3_Sitzungen_2026.pdf', fileType: 'PDF', sizeLabel: '740 KB', indexedChunks: 16 },
+      { id: 'med-doc-3', fileName: 'Merkblatt_Vor_Nachsorge_4Lang.pdf', fileType: 'PDF', sizeLabel: '510 KB', indexedChunks: 20 },
+    ],
+    dossierSections: [
+      { id: 'med-sec-1', badge: 'GOZ / FESTZUSCHUSS', highlightMetric: 'Eigenanteil: 3.940 €' },
+      { id: 'med-sec-2', badge: 'BEHANDLUNG & NACHSORGE', highlightMetric: '3 Termine • ca. 10 Wochen' },
+    ],
+  },
+];

@@ -1,0 +1,306 @@
+{
+  "marketing-agency": {
+    "industry": "Werbe- & Marketingagentur",
+    "title": "B2B Growth-Kampagne & Mediaplan Q2/2026",
+    "subtitle": "LinkedIn Ads, Search-Performance und 12 kreative Video-Assets inklusive monatlicher ROI-Attribution.",
+    "aiPersonaName": "AI Kampagnen-Berater",
+    "aiWelcomeMessage": "Willkommen im Kampagnenportal von Bergmann Digital! Ich beantworte jede Frage zu Ihrem Q2-Mediaplan (14.800 €), KPI-Zielen und Kündigungsfristen.",
+    "quickQuestions": [
+      "Wie verteilt sich das Budget von 14.800 € pro Monat?",
+      "Welche KPI-Garantien und Lead-Ziele sind enthalten?",
+      "Wie lang ist die Laufzeit und Kündigungsfrist?"
+    ],
+    "documents": {
+      "mkt-doc-1": "Individuelles B2B-Angebot",
+      "mkt-doc-2": "Mediaplan & Budgetaufteilung",
+      "mkt-doc-3": "Kreativ-Konzept & ROI-Prognose"
+    },
+    "sections": {
+      "mkt-sec-1": {
+        "title": "Leistungspaket & Kanalverteilung",
+        "summary": "Umfasst strategisches Kampagnenmanagement (7.200 €) sowie direktes Ad-Spend-Handling für LinkedIn DACH und Google Search (7.600 €).",
+        "keyPoints": [
+          "LinkedIn ABM Ads (München, Frankfurt, Zürich): 4.800 € Ad-Spend",
+          "Google Search High-Intent Keywords: 2.800 € Ad-Spend",
+          "12 Motion-Creatives & 4 A/B-Landingpages inklusive"
+        ]
+      },
+      "mkt-sec-2": {
+        "title": "Erwartete Ergebnisse & Reporting",
+        "summary": "Ziel-CPL zwischen 69 € und 89 € pro qualifiziertem B2B-Entscheider mit wöchentlichem Looker-Studio-Dashboard.",
+        "keyPoints": [
+          "Go-Live innerhalb von 10 Werktagen nach Kick-off",
+          "Mindestlaufzeit: 3 Monate, Kündigungsfrist: 30 Tage zum Quartalsende",
+          "Volle Nutzungsrechte an allen Rohdaten & Werbekonten beim Kunden"
+        ]
+      }
+    },
+    "agenticCapabilityHint": "Live-Option: Angebotsfreigabe & Kick-off-Termin buchen"
+  },
+  "real-estate": {
+    "industry": "Immobilien & Luxusmakler",
+    "title": "Penthouse Bogenhausen • Exposé & Kaufentwurf",
+    "subtitle": "218 m² Wohnfläche, Energieklasse A+, 2 Tiefgaragenstellplätze & notarieller Kaufvertragsentwurf.",
+    "aiPersonaName": "AI Immobilien-Concierge",
+    "aiWelcomeMessage": "Guten Tag! Ich kenne alle Details zu diesem Bogenhausen-Penthouse (2.450.000 €), Hausgeld, Kaufnebenkosten in Bayern und dem Grundbuchauszug.",
+    "quickQuestions": [
+      "Wie hoch sind das monatliche Hausgeld und die Kaufnebenkosten?",
+      "Wann ist das Penthouse bezugsfrei und wie hoch ist die Maklerprovision?",
+      "Welche Ausstattung und Energieeffizienz bietet das Objekt?"
+    ],
+    "documents": {
+      "re-doc-1": "Architektur-Exposé & Grundrisse",
+      "re-doc-2": "Energieausweis (A+ / KfW 55)",
+      "re-doc-3": "Notarieller Kaufvertragsentwurf"
+    },
+    "sections": {
+      "re-sec-1": {
+        "title": "Eckdaten & Bauausstattung",
+        "summary": "Erstbezug in ruhiger Bestlage München-Bogenhausen mit privatem Aufzug, 64 m² Südwest-Dachterrasse und KNX Smart-Home.",
+        "keyPoints": [
+          "Kaufpreis inkl. 2 Duplex-Tiefgaragenstellplätzen: 2.450.000 €",
+          "Energieklasse A+ (Endenergiebedarf 24,5 kWh/(m²·a), Erdwärmepumpe)",
+          "Monatliches Hausgeld: 685 € (inkl. Instandhaltungsrücklage)"
+        ]
+      },
+      "re-sec-2": {
+        "title": "Nebenkosten & Notartermin",
+        "summary": "Grunderwerbsteuer in Bayern 3,5 % (85.750 €), Notar & Grundbuch ca. 1,5 % (36.750 €), Käuferprovision 2,975 % inkl. MwSt.",
+        "keyPoints": [
+          "14-tägige Reservierungsvereinbarung ohne Zusatzgebühr möglich",
+          "Übergabe besenrein mit 5 Jahren BGB-Gewährleistung auf Neubau",
+          "Grundbuch Abteilung II & III vollständig lastenfrei übergeben"
+        ]
+      }
+    },
+    "agenticCapabilityHint": "Live-Option: Privaten Besichtigungstermin vor Ort buchen"
+  },
+  "auto-leasing": {
+    "industry": "Autohaus & Gewerbeleasing",
+    "title": "Porsche Taycan 4S • Leasingangebot & VIN-Historie",
+    "subtitle": "48 Monate Gewerbeleasing ohne Anzahlung, 15.000 km/Jahr, lückenloses Scheckheft & DEKRA-Siegel.",
+    "aiPersonaName": "AI Fahrzeug- & Leasingberater",
+    "aiWelcomeMessage": "Willkommen bei Autohaus Stern! Fragen Sie mich zu Leasingrate (1.190 € netto), Restwert, VIN-Check oder der Batterie-Garantie dieses Taycan 4S.",
+    "quickQuestions": [
+      "Wie setzen sich die 1.190 € Rate und Mehrkilometerkosten zusammen?",
+      "Was ergab die VIN- & DEKRA-Prüfung des Fahrzeugs?",
+      "Ist das Wartungspaket inklusive und wie lange gilt die Batteriegarantie?"
+    ],
+    "documents": {
+      "auto-doc-1": "Leasingvertrag & Ratenplan",
+      "auto-doc-2": "VIN-Historie & DEKRA-Gutachten",
+      "auto-doc-3": "Sonderausstattung & Garantie"
+    },
+    "sections": {
+      "auto-sec-1": {
+        "title": "Fahrzeugdaten & Leasingkonditionen",
+        "summary": "Porsche Taycan 4S Performance Plus (EZ 04/2025, 14.200 km, Vulkaangrau Metallic), 100 % unfallfrei aus 1. Vorbesitz.",
+        "keyPoints": [
+          "0 € Sonderzahlung • Laufzeit 48 Monate • 15.000 km/Jahr inkl. 2.500 km Toleranz",
+          "Mehrkilometer: 0,14 €/km netto • Minderkilometer-Erstattung: 0,08 €/km",
+          "SoH-Batteriezustand laut DEKRA-Diagnose: 98,4 % (Garantie bis 04/2033)"
+        ]
+      },
+      "auto-sec-2": {
+        "title": "Inkludierte Pakete & Zulassung",
+        "summary": "Inklusive 24 Monate Porsche Approved Garantie, Winterkomplettradsatz 20 Zoll und bundesweiter Auslieferung per geschlossenem Transporter.",
+        "keyPoints": [
+          "Optionales Full-Service-Wartungspaket: +85 € netto / Monat",
+          "0,25 %-Dienstwagenversteuerung in Deutschland (Bruttolistenpreis < 100k Basis)",
+          "Überführung & Zulassung Stuttgart/München in 5 Werktagen"
+        ]
+      }
+    },
+    "agenticCapabilityHint": "Live-Option: Probefahrt buchen & Bonitätsunterlagen einreichen"
+  },
+  "medical-clinic": {
+    "industry": "Zahnmedizin & Privatklinik",
+    "title": "Individueller Heil- und Kostenplan (Implantologie)",
+    "subtitle": "2 Straumann-Titanimplantate, Vollkeramikkronen, Krankenkassen-Festzuschuss & Nachsorgeprotokoll.",
+    "aiPersonaName": "AI Patienten-Assistent",
+    "aiWelcomeMessage": "Hallo Frau Hoffmann! Ich erkläre Ihnen Ihren Heil- und Kostenplan (Eigenanteil 3.940 €), die 3 Behandlungstermine sowie die Vorbereitung vor dem Eingriff.",
+    "quickQuestions": [
+      "Wie berechnet sich mein Eigenanteil von 3.940 €?",
+      "Was darf ich vor und direkt nach der Implantation essen?",
+      "Welche Ratenzahlung bietet die Praxis an?"
+    ],
+    "documents": {
+      "med-doc-1": "Heil- und Kostenplan (GOZ)",
+      "med-doc-2": "Zeitplan & Einheilphase",
+      "med-doc-3": "OP-Vorbereitung & Verhaltensregeln"
+    },
+    "sections": {
+      "med-sec-1": {
+        "title": "Kostenaufstellung & Kassenanteil",
+        "summary": "Gesamthonorar inkl. Meisterlabor Frankfurt: 6.850 €. Abzüglich GKV-Festzuschuss (1.420 €) und Zahnzusatzversicherung (1.490 €).",
+        "keyPoints": [
+          "0 % Teilzahlung über 12 Monate möglich (328,33 € / Monat)",
+          "5 Jahre Klinik-Garantie auf Implantate bei jährlicher PZR-Kontrolle",
+          "Digitale 3D-DVT-Planung bereits im Honorar enthalten"
+        ]
+      },
+      "med-sec-2": {
+        "title": "Phasen & Patientenhinweise",
+        "summary": "Phase 1: Implantation in Lokalanästhesie (60 Min.). Phase 2: Nahtentfernung nach 7 Tagen. Phase 3: Finale Keramikkronen in Woche 10.",
+        "keyPoints": [
+          "Am OP-Tag: Normal frühstücken, bitte 24 h vorher keinen Alkohol",
+          "Nach dem Eingriff: 48 h kühlen, kein Kaffee/Rauchen für 72 h",
+          "Notfall-Rufnummer der Praxis 24/7 direkt im Portal abrufbar"
+        ]
+      }
+    },
+    "agenticCapabilityHint": "Live-Option: OP-Termin bestätigen & Anamnesebogen ausfüllen"
+  },
+  "construction-interior": {
+    "industry": "Bau & Innenarchitektur",
+    "title": "3D-Umbauprojekt & Kostenvoranschlag (KSS)",
+    "subtitle": "145 m² Komplettsanierung in 4 Bauphasen inkl. Eichenparkett, Maßküche, Lichtkonzept & 5-Jahres-Gewährleistung.",
+    "aiPersonaName": "AI Bauleiter & Planer",
+    "aiWelcomeMessage": "Willkommen im BauWerk Projektportal! Ich beantworte Fragen zu Ihrem Kostenvoranschlag (84.500 € netto), allen 4 Bauphasen, Materialspezifikationen und Zahlungsmeilensteinen.",
+    "quickQuestions": [
+      "Wie teilen sich die 84.500 € auf die 4 Bauphasen auf?",
+      "Welche Materialien sind für Küche, Bad und Boden geplant?",
+      "Welche Zahlungsraten gelten und welche Garantie gibt es?"
+    ],
+    "documents": {
+      "con-doc-1": "Detaillierter Kostenvoranschlag",
+      "con-doc-2": "3D-Innenarchitektur & Elektroplan",
+      "con-doc-3": "Bauzeitenplan & Abnahme"
+    },
+    "sections": {
+      "con-sec-1": {
+        "title": "Bauphasen & Kostenpositionen",
+        "summary": "Phase 1 Rückbau & Rohbau (14.200 €), Phase 2 Sanitär/Elektrik/KNX (24.800 €), Phase 3 Boden/Maler/Türen (19.500 €), Phase 4 Maßküche & Einbauschränke (26.000 €).",
+        "keyPoints": [
+          "Material-Highlights: Eiche Natur Landhausdiele, Keramik-Arbeitsplatte Dekton, DALI-Lichtschienen",
+          "Festpreisgarantie für 90 Tage ab Angebotsdatum ohne versteckte Nachträge",
+          "Staubfreie Abschottung & tägliche Baustellenprotokolle inklusive"
+        ]
+      },
+      "con-sec-2": {
+        "title": "Meilensteine & Abnahmesicherheit",
+        "summary": "30 % bei Baustart, 35 % nach Rohinstallation (Phase 2), 25 % nach Boden/Malerarbeiten, 10 % erst nach mängelfreier Endabnahme.",
+        "keyPoints": [
+          "5 Jahre BGB-Gewährleistung auf alle Bau- und Installationsleistungen",
+          "Pönale bei Verzug: 0,2 % pro Werktag nach Ablauf von Woche 12",
+          "Blower-Door- & Elektro-Prüfprotokoll nach DIN VDE 0100-600 bei Übergabe"
+        ]
+      }
+    },
+    "agenticCapabilityHint": "Live-Option: Bemusterungstermin im Showroom Berlin buchen"
+  },
+  "hospitality-stay": {
+    "industry": "Hotellerie & Ferienapartments",
+    "title": "Digitaler Gäste-Concierge • Chalet Zugspitze #4",
+    "subtitle": "Self-Check-in Code, 1-Klick-WLAN, private Sauna-Steuerung, Hausregeln & kuratierte Alpen-Tipps via Link oder QR-Aufsteller.",
+    "aiPersonaName": "AI Alpen-Concierge (24/7)",
+    "aiWelcomeMessage": "Grüß Gott im Chalet Zugspitze #4! Fragen Sie mich nach dem Tür-PIN, WLAN-Zugang, der Sauna-Bedienung, Brötchenservice oder Skipass-Tipps.",
+    "quickQuestions": [
+      "Wie lauten Türcode, WLAN-Passwort und Sauna-Anleitung?",
+      "Wann ist Check-out und wo entsorgen wir Müll/E-Auto-Ladung?",
+      "Welche Restaurants und Bergbahnen empfehlen Sie in der Nähe?"
+    ],
+    "documents": {
+      "stay-doc-1": "Anreise, WLAN & Hausordnung",
+      "stay-doc-2": "Sauna, Kamin & EV-Wallbox Manual",
+      "stay-doc-3": "Kuratierter Garmisch-Insider-Guide"
+    },
+    "sections": {
+      "stay-sec-1": {
+        "title": "Sofortzugang, WLAN & Chalet-Technik",
+        "summary": "Kontaktloser Check-in ab 15:00 Uhr per Nuki-Keypad (Gast-Code: #849201). Glasfaser-WLAN „AlpenGlueh_5G“, Passwort: „Zugspitze2026!“.",
+        "keyPoints": [
+          "Check-out bis 10:30 Uhr (Late Check-out bis 13:00 Uhr: +45 € auf Anfrage)",
+          "Finnische Zirben-Sauna: Hauptschalter rechts im Bad, Aufheizzeit ca. 25 Min. auf 85 °C",
+          "11-kW E-Auto-Wallbox am Carport #4 (Aktivierung mit RFID-Chip am Schlüsselbund)"
+        ]
+      },
+      "stay-sec-2": {
+        "title": "Brötchenservice, Kulinarik & Ausflüge",
+        "summary": "Frischer Bäcker-Korb um 07:30 Uhr an der Tür (Bestellung bis 18:00 Uhr). Zugspitzbahn-Talstation nur 8 Autominuten entfernt.",
+        "keyPoints": [
+          "Top-Restaurant-Tipps: „Gasthof Zum Wildschütz“ (600 m) & „Alpenhof Bistro“",
+          "Brötchenservice-Korb „Gipfelglück“ für 2 Personen: 18 € / Tag",
+          "Ruhezeit ab 22:00 Uhr auf der Terrasse • Nichtraucher-Chalet (Außenbereich erlaubt)"
+        ]
+      }
+    },
+    "agenticCapabilityHint": "Live-Option: Late Check-out oder Frühstückskorb direkt buchen"
+  },
+  "legal-contracts": {
+    "industry": "Anwaltskanzlei & Vertragsrecht",
+    "title": "Geschützte Mandantenakte • B2B-Rahmenvertrag",
+    "subtitle": "PIN-geschütztes Mandantenportal mit Vertragsentwurf, Vollmacht, Haftungsklauseln & gesetzlichen Fristen.",
+    "aiPersonaName": "AI Mandanten-Assistent (Dokumentenbasiert)",
+    "aiWelcomeMessage": "Willkommen in Ihrer geschützten Mandantenakte (AKTE-FFM-2026-119). Ich erläutere Ihnen alle Paragraphen des B2B-Rahmenvertrags, Haftungsobergrenzen (§ 8) und Abgabefristen.",
+    "quickQuestions": [
+      "Wie hoch ist die Haftungsobergrenze laut § 8 des Vertrags?",
+      "Welche Kündigungsfristen und Vertragsstrafen gelten in § 11?",
+      "Bis wann muss die unterschriebene Vollmacht eingereicht werden?"
+    ],
+    "documents": {
+      "leg-doc-1": "B2B-Rahmenvertrag (Prüfentwurf)",
+      "leg-doc-2": "Mandats- & Verhandlungsvollmacht",
+      "leg-doc-3": "Fristenübersicht & Honorar (RVG)"
+    },
+    "sections": {
+      "leg-sec-1": {
+        "title": "Geprüfte Kernklauseln & Risikobewertung",
+        "summary": "Kanzleiempfehlung zur Haftungsbegrenzung (§ 8): Deckelung bei leichter Fahrlässigkeit auf 185.000 € (einfaches Auftragsvolumen) statt unbegrenzter Haftung.",
+        "keyPoints": [
+          "§ 11 Vertraulichkeit (NDA): 5 Jahre Nachwirkung nach Vertragsende, Vertragsstrafe 25.000 € je Verstoß",
+          "§ 14 Gerichtsstand: Ausschließlich Frankfurt am Main nach deutschem Recht (BGB/HGB)",
+          "Kündigungsfrist: 3 Monate zum Jahresende; außerordentliche Kündigung bei Zahlungsverzug > 30 Tage"
+        ]
+      },
+      "leg-sec-2": {
+        "title": "Handlungsfristen & Vergütungsvereinbarung",
+        "summary": "Frist zur Rücksendung der Vertragsänderung an die Gegenseite: 28.11.2026. Pauschalhonorar für die komplette Vertragsverhandlung: 3.400 € netto.",
+        "keyPoints": [
+          "Unterzeichnung der Mandatsvollmacht idealerweise bis 21.11.2026 per qualifizierter E-Signatur",
+          "Aufbewahrung der Akte gemäß § 50 BRAO für 6 Jahre auf deutschen ISO-27001-Servern",
+          "Hinweis: Der KI-Assistent erklärt bestehende Dokumente, ersetzt keine individuelle Rechtsberatung"
+        ]
+      }
+    },
+    "agenticCapabilityHint": "Live-Option: Vollmacht digital freigeben & Rückruf mit Dr. Lindner buchen"
+  },
+  "finance-accounting": {
+    "industry": "Finanzberatung, Steuern & Versicherung",
+    "title": "Geschützter Finanz-, Steuer- & Policen-Tresor",
+    "subtitle": "PIN-gesichertes Unternehmenscockpit mit Q4-Steuervorauszahlungen, Gewerbe-Policen, Kredit-Tilgungsplan & BWA.",
+    "aiPersonaName": "AI Finanz- & Policen-Analyst",
+    "aiWelcomeMessage": "Willkommen im FinanzHaus Rhein Mandanten-Tresor! Fragen Sie mich zu Ihren Q4-Steuerterminen (42.860 €), der Betriebshaftpflicht-Deckung oder dem KfW-Tilgungsplan.",
+    "quickQuestions": [
+      "Welche Steuerzahlungen fallen im Dezember 2026 genau an?",
+      "Was deckt unsere Cyber- und Betriebshaftpflicht-Police ab?",
+      "Wie hoch sind Restschuld und Zinssatz beim KfW-Kredit?"
+    ],
+    "documents": {
+      "fin-doc-1": "BWA & Steuertermin-Übersicht Q4",
+      "fin-doc-2": "Gewerbe- & Cyberversicherung (Allianz)",
+      "fin-doc-3": "KfW-Kredit & Tilgungstabelle"
+    },
+    "sections": {
+      "fin-sec-1": {
+        "title": "Steuervorauszahlungen & offene Posten",
+        "summary": "Am 10.12.2026 fällig: Körperschaftsteuer-Vorauszahlung (18.400 €), Gewerbesteuer Stadt Hamburg (11.960 €) sowie USt-Voranmeldung November (12.500 €).",
+        "keyPoints": [
+          "BWA Jahresumsatz kumuliert bis Okt. 2026: 1.940.000 € (+14,2 % YoY), EBITDA-Marge 16,8 %",
+          "SEPA-Lastschriftmandat für Finanzamt Hamburg-Mitte aktiv (Deckung auf Konto DE89...4410 prüfen)",
+          "Steuerberater-Honorar für Jahresabschluss-Vorbereitung bereits verbucht"
+        ]
+      },
+      "fin-sec-2": {
+        "title": "Versicherungsschutz & Kreditkonditionen",
+        "summary": "Betriebshaftpflicht (Deckung 5.000.000 € pauschal, Prämie 2.940 €/Jahr) & Cyber-Schutz (1.000.000 €, Selbstbehalt 2.500 €). KfW-Kredit fest bis 2031.",
+        "keyPoints": [
+          "Monatliche KfW-Rate: 3.120 € (davon 508 € Zins, 2.612 € Tilgung)",
+          "Sondertilgung bis zu 15.000 € pro Kalenderjahr kostenfrei zum 30.12. möglich",
+          "Policen-Verlängerungsfrist ohne Risikoänderung: 3 Monate vor Ablauf (30.09.)"
+        ]
+      }
+    },
+    "agenticCapabilityHint": "Live-Option: Beleg nachreichen oder Beratungstermin beim Steuerberater buchen"
+  }
+}

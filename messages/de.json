@@ -1,0 +1,127 @@
+{
+  "brand": {
+    "name": "SmartAI",
+    "subtitle": "Custom RAG Client Portals",
+    "editionBadge": "DACH Edition • DSGVO Ready"
+  },
+  "nav": {
+    "backToHub": "Zurück zur Übersicht",
+    "clientView": "Kundenansicht",
+    "catalogTab": "8 Demo-Portale",
+    "adminView": "Admin-Dashboard",
+    "qrLinkButton": "Link & QR",
+    "languageLabel": "Sprache wählen",
+    "primaryNavAria": "Hauptnavigation"
+  },
+  "hero": {
+    "eyebrow": "Personalisierte Kundenportale mit isoliertem RAG-Wissen",
+    "title": "Jedes Angebot. Jeder Vertrag.",
+    "titleHighlight": "Mit eigenem KI-Berater per persönlichem Link.",
+    "description": "Präsentieren Sie Ihren Kunden Angebote, Exposés, Heil- und Kostenpläne oder vertrauliche Mandantenakten in einem sofort zugänglichen Portal – inklusive speziellem KI-Assistenten, der ausschließlich auf den Dokumenten dieses einen Kunden basiert.",
+    "pillDach": "DACH & DSGVO-konform",
+    "pillPersonalLink": "Direkter Link (+ optionale QR-Nutzung)",
+    "pillIsolatedRag": "Strikte XML-Dokumentenisolation",
+    "sectionHeading": "8 Branchen-Demonstrationen",
+    "sectionSubheading": "Wählen Sie eine Branche aus, testen Sie die Kundenansicht mit dem KI-Assistenten oder wechseln Sie oben ins Admin-Dashboard."
+  },
+  "card": {
+    "openPortal": "Portal öffnen",
+    "qrAndLink": "Link / QR",
+    "documentsLabel": "RAG-Wissensbasis",
+    "chunksSuffix": "Abschnitte",
+    "accessOpenLink": "Offener Link",
+    "accessOpenQr": "Link + QR-Tafel",
+    "accessPinProtected": "Benutzer + Passwort + PIN"
+  },
+  "agenticStrip": {
+    "badge": "Produktive Erweiterbarkeit",
+    "title": "Vom Auskunfts-Assistenten zur aktiven Prozessautomatisierung",
+    "subtitle": "In Produktivumgebungen können diese individuellen RAG-Portale strukturierte Kundendaten erfassen und direkte Aktionen auslösen:",
+    "actionCalendarTitle": "Kalender & Terminbuchung",
+    "actionCalendarDesc": "Besichtigungen, Beratungen oder Behandlungstermine direkt synchronisieren.",
+    "actionKycTitle": "Strukturierte Datenerfassung",
+    "actionKycDesc": "Kundendaten für Verträge, Leasing oder Rechnungen DSGVO-konform aufnehmen.",
+    "actionConfirmTitle": "Angebotsannahme & CRM-Trigger",
+    "actionConfirmDesc": "Freigaben protokollieren und sofortige Benachrichtigungen an das Team senden."
+  },
+  "qrModal": {
+    "title": "Persönlicher Kundenlink & QR-Option",
+    "subtitle": "Der Kunde öffnet sein Portal primär direkt über diesen individuellen Link (per E-Mail, WhatsApp oder SMS). Der QR-Code dient als bequeme Zusatzoption für Smartphone oder gedruckte Unterlagen.",
+    "personalUrlLabel": "Individuelle Portal-URL",
+    "copyLink": "Link kopieren",
+    "copied": "Kopiert!",
+    "qrSecondaryNote": "Sekundäre Option: Sofortiger Mobilzugriff per QR-Scan",
+    "openDemoNow": "Demo jetzt öffnen",
+    "close": "Schließen"
+  },
+  "pinGate": {
+    "badge": "Vertraulicher Mandantenbereich",
+    "title": "Geschützter Zugang erforderlich",
+    "description": "Dieses Kundenportal enthält sensible Vertrags-, Steuer- oder Finanzdaten und ist mit Benutzername, Passwort und 4-stelligem PIN geschützt.",
+    "demoCredentialsTitle": "Präsentations-Zugangsdaten (Demo)",
+    "usernameLabel": "Benutzername",
+    "passwordLabel": "Passwort",
+    "pinLabel": "4-stelliger Sicherheits-PIN",
+    "autoFillButton": "1-Klick Auto-Fill & Entsperren",
+    "unlockButton": "Portal entsperren",
+    "invalidError": "Ungültige Zugangsdaten. Nutzen Sie den 1-Klick Auto-Fill Button für die Demo.",
+    "backReminder": "Sie können jederzeit über die obere Leiste zur Übersicht zurückkehren."
+  },
+  "portal": {
+    "offerRefLabel": "Vorgang / Referenz",
+    "clientLabel": "Empfänger",
+    "dossierHeading": "Dokumentierter Angebots- & Vertragsinhalt",
+    "documentsHeading": "Hinterlegte Dokumente im RAG-Kontext",
+    "agenticPreviewHeading": "Konzept-Vorschau: Nächster Schritt im Live-Betrieb",
+    "agenticPreviewCta": "Rückruf / Terminvormerkung simulieren",
+    "agenticPreviewToast": "Demo-Hinweis: Im produktiven Einsatz wird diese Anfrage jetzt direkt in Ihren Kalender oder Ihr CRM übertragen.",
+    "stepBadge": "Schritt 1 • Interaktiver Dokumenten- & RAG-Kern",
+    "collapseChat": "Fokus auf Dokument",
+    "expandChat": "KI-Berater einblenden",
+    "chatLauncher": "KI-Berater öffnen"
+  },
+  "chat": {
+    "liveBadge": "OpenRouter RAG Aktiv",
+    "fallbackBadge": "Lokale RAG-Engine",
+    "quickQuestionsLabel": "Schnellfragen zum Dokument:",
+    "inputPlaceholder": "Frage zu Preisen, Fristen oder Klauseln stellen...",
+    "sendButton": "Senden",
+    "clearButton": "Zurücksetzen",
+    "thinkingLabel": "Prüft die Kundenunterlagen...",
+    "errorFallback": "Verbindung kurz unterbrochen – bitte erneut senden.",
+    "disclaimer": "Antwortet strikt auf Basis der freigegebenen Unterlagen und automatisch in Ihrer Sprache."
+  },
+  "admin": {
+    "badge": "Admin-Dashboard Vorschau",
+    "title": "So konfiguriert Ihr Team ein neues Kundenportal",
+    "subtitle": "Visuelle Demonstration der Verwaltungsoberfläche: Dokumente hochladen, Zugriffsmodus festlegen und persönlichen Link generieren. Änderungen hier sind eine Live-Vorschau und verändern den festen Demo-RAG-Kontext nicht.",
+    "selectPortalLabel": "Kundenakte / Branche wählen",
+    "docsCardTitle": "1. Kundendokumente & Wissen verwalten",
+    "docsCardHint": "PDFs, Exposés, Kostenvoranschläge oder Verträge werden automatisch indexiert.",
+    "addDocButton": "+ Demo-Dokument hinzufügen",
+    "newDocPrefix": "Nachtrag_Kundenwunsch",
+    "uploadedPrefix": "Hochgeladene Anlage",
+    "securityCardTitle": "2. Schutz & Zugriffsart definieren",
+    "modeOpen": "Offener persönlicher Link",
+    "modeOpenQr": "Link + QR-Aufsteller (z. B. SmartScan Stay)",
+    "modePin": "Zugangsdaten + 4-stelliger PIN",
+    "credentialsPreviewTitle": "Generierte Mandanten-Zugangsdaten",
+    "linkCardTitle": "3. Persönlicher Link & Auslieferung",
+    "copyUrl": "URL kopieren",
+    "copiedUrl": "Kopiert!",
+    "openQrModal": "QR-Code anzeigen",
+    "openClientPortal": "Kundenansicht starten",
+    "ragStatusTitle": "System- & Sicherheitsstatus",
+    "ragStatusItems": {
+      "item1": "XML-Kontextisolation aktiv (kein Vermischen fremder Kundendaten)",
+      "item2": "Prompt-Injection-Schutzschicht aktiv",
+      "item3": "Mehrsprachige Ausgabe (DE / BG / EN / TR) aktiviert",
+      "item4": "DSGVO-konforme Zero-Retention Demo-Architektur"
+    },
+    "simulationNotice": "Präsentationsmodus: Änderungen dienen zur Veranschaulichung des Workflows."
+  },
+  "footer": {
+    "compliance": "SmartAI Demo Applications • Entwickelt für den DACH-Mittelstand",
+    "zeroDbNote": "Isolierte Demo-Umgebung • Keine echten Kundendaten gespeichert"
+  }
+}

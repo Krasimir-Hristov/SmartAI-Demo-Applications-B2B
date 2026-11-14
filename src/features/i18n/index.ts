@@ -1,6 +1,12 @@
-/**
- * 4-language localization module (BG, DE, EN, TR).
- * Will be fully implemented in Step 1.
- */
-export const SUPPORTED_LOCALES = ['bg', 'de', 'en', 'tr'] as const;
-export type SupportedLocale = (typeof SUPPORTED_LOCALES)[number];
+export { I18nClientProvider, useI18nSwitcher } from './I18nClientProvider';
+export { LanguageSwitcher } from './LanguageSwitcher';
+export {
+  DEFAULT_LOCALE,
+  isSupportedLocale,
+  LOCALE_COOKIE_NAME,
+  LOCALE_OPTIONS,
+  SUPPORTED_LOCALES,
+  type LocaleOption,
+  type SupportedLocale,
+} from './types';
+export type { AllMessages, CatalogMessagesBundle, UiMessagesBundle } from './global';

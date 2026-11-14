@@ -1,0 +1,306 @@
+{
+  "marketing-agency": {
+    "industry": "Reklam & Pazarlama Ajansı",
+    "title": "B2B Büyüme Teklifi & Medya Planı Q2/2026",
+    "subtitle": "Aylık ROI ilişkilendirmeli LinkedIn reklamları, arama performansı ve 12 yaratıcı video varlığı.",
+    "aiPersonaName": "AI Kampanya Danışmanı",
+    "aiWelcomeMessage": "Bergmann Digital teklif portalına hoş geldiniz! 14.800 € bütçe, KPI hedefleri ve teslimatlar hakkında soru sorabilirsiniz.",
+    "quickQuestions": [
+      "14.800 € bütçe kanallara nasıl dağıtılıyor?",
+      "Hedeflenen B2B potansiyel müşteri sayısı nedir?",
+      "Sözleşme süresi ve fesih ihbar süresi ne kadar?"
+    ],
+    "documents": {
+      "mkt-doc-1": "Özel B2B Teklifi",
+      "mkt-doc-2": "Medya Planı & Bütçe Dağılımı",
+      "mkt-doc-3": "Yaratıcı Konsept & ROI Modeli"
+    },
+    "sections": {
+      "mkt-sec-1": {
+        "title": "Kapsam & Kanal Bütçe Dağılımı",
+        "summary": "Kampanya yönetimi ve kreatif üretim (7.200 €) ile LinkedIn DACH ve Google Search reklam bütçesini (7.600 €) kapsar.",
+        "keyPoints": [
+          "LinkedIn ABM Reklamları (Münih, Frankfurt, Zürih): 4.800 €",
+          "Google Search yüksek niyetli aramalar: 2.800 €",
+          "12 video kreatif ve 4 A/B açılış sayfası dahil"
+        ]
+      },
+      "mkt-sec-2": {
+        "title": "Beklenen KPI & ROI Raporlama",
+        "summary": "Haftalık raporlama ile nitelikli B2B lider başına 69 € – 89 € hedef maliyet.",
+        "keyPoints": [
+          "Başlangıçtan itibaren 10 iş günü içinde yayına alma",
+          "İlk süre: 3 ay, çeyrek sonundan 30 gün önce fesih bildirimi",
+          "Tüm reklam hesaplarının %100 mülkiyeti müşteriye aittir"
+        ]
+      }
+    },
+    "agenticCapabilityHint": "Canlı Aksiyon: Teklif onayı & kick-off toplantısı planlama"
+  },
+  "real-estate": {
+    "industry": "Lüks Gayrimenkul",
+    "title": "Bogenhausen Çatı Katı • Exposé & Ön Sözleşme",
+    "subtitle": "218 m² yaşam alanı, A+ enerji sınıfı, 2 kapalı otopark ve noter sözleşme taslağı.",
+    "aiPersonaName": "AI Emlak Danışmanı",
+    "aiWelcomeMessage": "Hoş geldiniz! 2.450.000 € değerindeki Münih çatı katı, aylık aidat ve Bavyera tapu masrafları hakkında her şeyi sorabilirsiniz.",
+    "quickQuestions": [
+      "Aylık aidat (Hausgeld) ve alım ek masrafları ne kadar?",
+      "Teslim tarihi ne zaman ve otopark dahil mi?",
+      "Enerji sınıfı ve ısıtma sistemi nedir?"
+    ],
+    "documents": {
+      "re-doc-1": "Mimari Exposé & Kat Planı",
+      "re-doc-2": "Enerji Kimlik Belgesi (Sınıf A+)",
+      "re-doc-3": "Noter Satış Sözleşmesi Taslağı"
+    },
+    "sections": {
+      "re-sec-1": {
+        "title": "Gayrimenkul Özellikleri & Donanım",
+        "summary": "Münih-Bogenhausen’da özel asansörlü, 64 m² güneybatı teraslı ve KNX akıllı ev sistemli ilk oturum.",
+        "keyPoints": [
+          "2 kapalı otopark dahil satış fiyatı: 2.450.000 €",
+          "Enerji Sınıfı A+ (24,5 kWh/m²·yıl, jeotermal ısı pompası)",
+          "Aylık aidat (Hausgeld): 685 €"
+        ]
+      },
+      "re-sec-2": {
+        "title": "Ek Alım Masrafları & Noter Takvimi",
+        "summary": "Bavyera tapu harcı %3,5 (85.750 €), noter ve sicil ~%1,5 (36.750 €), alıcı komisyonu %2,975 KDV dahil.",
+        "keyPoints": [
+          "Ek ücretsiz 14 günlük öncelikli rezervasyon imkanı",
+          "5 yıllık BGB yeni yapı garantisi ile teslim",
+          "Tapu sicili (Grundbuch) tüm şerhlerden arınmış devredilir"
+        ]
+      }
+    },
+    "agenticCapabilityHint": "Canlı Aksiyon: Özel yerinde inceleme randevusu al"
+  },
+  "auto-leasing": {
+    "industry": "Otomotiv & Leasing",
+    "title": "Porsche Taycan 4S • Leasing Teklifi & VIN Raporu",
+    "subtitle": "Peşinatsız 48 aylık ticari leasing, yılda 15.000 km, tam servis geçmişi ve DEKRA raporu.",
+    "aiPersonaName": "AI Araç & Leasing Danışmanı",
+    "aiWelcomeMessage": "Autohaus Stern’e hoş geldiniz! Aylık 1.190 € net leasing taksiti, VIN geçmişi ve batarya garantisi hakkında sorabilirsiniz.",
+    "quickQuestions": [
+      "1.190 € taksite neler dahil ve fazla km ücreti nedir?",
+      "VIN ve DEKRA incelemesi ne gösterdi?",
+      "Yüksek voltaj batarya garantisi ne kadar geçerli?"
+    ],
+    "documents": {
+      "auto-doc-1": "Leasing Hesaplama & Ödeme Planı",
+      "auto-doc-2": "VIN Geçmişi & DEKRA Raporu",
+      "auto-doc-3": "Donanım Listesi & Garanti"
+    },
+    "sections": {
+      "auto-sec-1": {
+        "title": "Araç Özellikleri & Leasing Koşulları",
+        "summary": "Porsche Taycan 4S Performance Plus (04/2025, 14.200 km), ilk sahibinden %100 kazasız.",
+        "keyPoints": [
+          "0 € peşinat • 48 ay • yılda 15.000 km (+2.500 km tolerans)",
+          "Fazla km ücreti: 0,14 €/km net • Kullanılmayan km iadesi: 0,08 €/km",
+          "DEKRA batarya sağlığı (SoH): %98,4 (garanti 04/2033’e kadar)"
+        ]
+      },
+      "auto-sec-2": {
+        "title": "Dahil Hizmetler & Teslimat",
+        "summary": "24 ay Porsche Approved garantisi, 20 inç kış lastiği seti ve Almanya geneli kapalı araçla teslimat dahildir.",
+        "keyPoints": [
+          "Opsiyonel tam bakım paketi: +85 € net / ay",
+          "Almanya şirket elektrikli araç vergi avantajına uygun",
+          "5 iş günü içinde tescil ve teslimat"
+        ]
+      }
+    },
+    "agenticCapabilityHint": "Canlı Aksiyon: Test sürüşü planla & leasing belgelerini ilet"
+  },
+  "medical-clinic": {
+    "industry": "Tıp & Diş Kliniği",
+    "title": "Kişisel Diş Tedavi & Maliyet Planı",
+    "subtitle": "2 Straumann implant, tam seramik kronlar, sigorta katkısı ve operasyon sonrası bakım talimatları.",
+    "aiPersonaName": "AI Hasta Danışmanı",
+    "aiWelcomeMessage": "Merhaba Bayan Hoffmann! Tedavi planınız (3.940 € net ödeme), 3 aşamalı takvim ve işlem öncesi/sonrası bakım hakkında sorabilirsiniz.",
+    "quickQuestions": [
+      "3.940 € net ödeme payım nasıl hesaplanıyor?",
+      "Operasyon öncesi ve hemen sonrasında nelere dikkat etmeliyim?",
+      "Klinik faizsiz taksit seçeneği sunuyor mu?"
+    ],
+    "documents": {
+      "med-doc-1": "Resmi Tedavi & Maliyet Planı",
+      "med-doc-2": "3 Aşamalı Klinik Takvimi",
+      "med-doc-3": "Operasyon Öncesi & Sonrası Rehber"
+    },
+    "sections": {
+      "med-sec-1": {
+        "title": "Ücret Dökümü & Sigorta Katkısı",
+        "summary": "Toplam klinik ve laboratuvar ücreti: 6.850 €. Kamu katkısı (1.420 €) ve ek diş sigortası (1.490 €) düşüldükten sonra net 3.940 €.",
+        "keyPoints": [
+          "12 ay %0 faizli taksit imkanı (aylık 328,33 €)",
+          "Yıllık kontrol şartıyla 5 yıl klinik garantisi",
+          "3D tomografi ve dijital planlama ücrete dahildir"
+        ]
+      },
+      "med-sec-2": {
+        "title": "Tedavi Aşamaları & İyileşme Kuralları",
+        "summary": "Aşama 1: Lokal anestezi ile yerleştirme (60 dk). Aşama 2: 7. gün dikiş kontrolü. Aşama 3: 10. hafta kalıcı kronlar.",
+        "keyPoints": [
+          "İşlem sabahı: hafif kahvaltı yapın, 24 saat önce alkolden kaçının",
+          "İşlem sonrası: 48 saat soğuk kompres, 72 saat kahve ve sigara yasak",
+          "7/24 klinik acil destek hattı portalda mevcuttur"
+        ]
+      }
+    },
+    "agenticCapabilityHint": "Canlı Aksiyon: Ameliyat randevusunu onayla & form doldur"
+  },
+  "construction-interior": {
+    "industry": "İnşaat & İç Mimarlık",
+    "title": "3D İç Mimari Proje & Aşamalı Maliyet Teklifi",
+    "subtitle": "4 aşamalı 145 m² anahtar teslim yenileme: meşe parke, özel mutfak, aydınlatma ve 5 yıl garanti.",
+    "aiPersonaName": "AI Mimari & Maliyet Danışmanı",
+    "aiWelcomeMessage": "BauWerk Berlin portalına hoş geldiniz! 84.500 € net keşif özeti, 4 inşaat aşaması ve ödeme planı hakkında sorabilirsiniz.",
+    "quickQuestions": [
+      "84.500 € bütçe 4 inşaat aşamasına nasıl bölünüyor?",
+      "Mutfak, banyo ve zemin için hangi malzemeler seçildi?",
+      "Aşamalı ödeme planı ve garanti koşulları nelerdir?"
+    ],
+    "documents": {
+      "con-doc-1": "Detaylı Keşif ve Metraj Tablosu",
+      "con-doc-2": "3D İç Tasarım & Aydınlatma Planı",
+      "con-doc-3": "İş Programı & Garanti Koşulları"
+    },
+    "sections": {
+      "con-sec-1": {
+        "title": "İnşaat Aşamaları & Maliyet Kalemleri",
+        "summary": "Aşama 1 Kırım/Kaba (€14.200), Aşama 2 Tesisat/KNX (€24.800), Aşama 3 Zemin/Boya (€19.500), Aşama 4 Özel Mutfak/Dolaplar (€26.000).",
+        "keyPoints": [
+          "Malzemeler: doğal meşe parke, Dekton seramik tezgah, DALI ray aydınlatma",
+          "Teklif tarihinden itibaren 90 gün sabit fiyat garantisi",
+          "Toz izolasyonu ve haftalık şantiye fotoğraf raporları dahil"
+        ]
+      },
+      "con-sec-2": {
+        "title": "Ödeme Planı & Teslim Güvencesi",
+        "summary": "Başlangıçta %30, tesisat sonrası %35, zemin/boya sonrası %25, son %10 ise sorunsuz teslim protokolü sonrası ödenir.",
+        "keyPoints": [
+          "Tüm yapı ve tesisat işlerinde 5 yıl yasal BGB garantisi",
+          "Gecikme cezası: 12. haftadan sonra iş günü başına %0,2",
+          "Teslimatta DIN VDE elektrik uygunluk sertifikası verilir"
+        ]
+      }
+    },
+    "agenticCapabilityHint": "Canlı Aksiyon: Showroom malzeme seçimi randevusu al"
+  },
+  "hospitality-stay": {
+    "industry": "Turizm, Otelcilik & Airbnb",
+    "title": "Dijital Misafir Concierge • Dağ Evi Zugspitze #4",
+    "subtitle": "Self check-in kodu, tek tık Wi-Fi, özel sauna rehberi, ev kuralları ve yerel Alp önerileri.",
+    "aiPersonaName": "AI Dijital Concierge (7/24)",
+    "aiWelcomeMessage": "Zugspitze #4 dağ evine hoş geldiniz! Kapı PIN kodu, Wi-Fi, sauna kullanımı veya kayak kartı ipuçları hakkında sorabilirsiniz.",
+    "quickQuestions": [
+      "Akıllı kapı kodu, Wi-Fi şifresi ve sauna talimatları nelerdir?",
+      "Check-out saati kaçta ve elektrikli araç şarjı nerede?",
+      "Yakınlardaki en iyi restoranlar ve teleferikler hangileri?"
+    ],
+    "documents": {
+      "stay-doc-1": "Giriş, Wi-Fi & Ev Kuralları",
+      "stay-doc-2": "Sauna, Şömine & EV Şarj Rehberi",
+      "stay-doc-3": "Özel Garmisch Yerel Rehberi"
+    },
+    "sections": {
+      "stay-sec-1": {
+        "title": "Akıllı Giriş, Wi-Fi & Dağ Evi Teknolojisi",
+        "summary": "15:00 itibarıyla Nuki şifreli temassız giriş (kod: #849201). Fiber Wi-Fi “AlpenGlueh_5G”, şifre: “Zugspitze2026!”.",
+        "keyPoints": [
+          "Check-out 10:30 (13:00’e kadar geç çıkış +45 € talep üzerine)",
+          "Özel fin saunası: banyo sağdaki panel, 25 dakikada 85 °C’ye ulaşır",
+          "4 numaralı otoparkta 11 kW EV duvar şarjı (anahtarlıktaki RFID ile çalışır)"
+        ]
+      },
+      "stay-sec-2": {
+        "title": "Fırın Servisi, Yeme-İçme & Geziler",
+        "summary": "Saat 07:30’da kapıya taze fırın sepeti teslimatı (18:00’e kadar sipariş). Zugspitze teleferik istasyonu araçla 8 dakika.",
+        "keyPoints": [
+          "Restoran önerileri: “Gasthof Zum Wildschütz” (600 m) ve “Alpenhof Bistro”",
+          "2 kişilik “Gipfelglück” kahvaltı sepeti: günlük 18 €",
+          "22:00 sonrası terasta sessizlik saatleri • İç mekan sigarasız"
+        ]
+      }
+    },
+    "agenticCapabilityHint": "Canlı Aksiyon: Geç çıkış veya kahvaltı sepeti talep et"
+  },
+  "legal-contracts": {
+    "industry": "Hukuk Bürosu & Sözleşmeler",
+    "title": "Korumalı Hukuki Dosya (Mandantenakte) & Sözleşme",
+    "subtitle": "PIN korumalı müvekkil portalı: sözleşme taslağı, vekaletname, sorumluluk sınırları ve yasal süreler.",
+    "aiPersonaName": "AI Hukuki Dosya Asistanı",
+    "aiWelcomeMessage": "Korumalı müvekkil dosyanıza hoş geldiniz! B2B sözleşme taslağındaki tüm maddeleri, sorumluluk sınırlarını (§ 8) ve son tarihleri açıklayabilirim.",
+    "quickQuestions": [
+      "Sözleşmenin 8. maddesindeki sorumluluk üst sınırı nedir?",
+      "11. maddedeki fesih ihbar süreleri ve cezai şartlar nelerdir?",
+      "Vekaletnamenin son imza tarihi nedir?"
+    ],
+    "documents": {
+      "leg-doc-1": "B2B Çerçeve Sözleşme Taslağı",
+      "leg-doc-2": "Temsil & Müzakere Vekaletnamesi",
+      "leg-doc-3": "Süre Çizelgesi & Ücret Sözleşmesi"
+    },
+    "sections": {
+      "leg-sec-1": {
+        "title": "İncelenen Ana Maddeler & Risk Notları",
+        "summary": "Hukuk bürosu önerisi (§ 8): hafif ihmalde sorumluluğun sınırsız yerine 185.000 € (sözleşme tutarı) ile sınırlandırılması.",
+        "keyPoints": [
+          "§ 11 Gizlilik (NDA): Sözleşme bitiminden sonra 5 yıl geçerli; ihlal başına 25.000 € ceza",
+          "§ 14 Yetkili Mahkeme: Alman hukuku (BGB/HGB), münhasıran Frankfurt am Main mahkemeleri",
+          "Fesih ihbarı: Yıl sonundan 3 ay önce; > 30 gün ödeme gecikmesinde haklı fesih"
+        ]
+      },
+      "leg-sec-2": {
+        "title": "İşlem Süreleri & Vekalet Ücreti",
+        "summary": "Karşı tarafa son revizyon gönderim tarihi: 28.11.2026. Tüm müzakere süreci için sabit avukatlık ücreti: 3.400 € net.",
+        "keyPoints": [
+          "Vekaletnamenin 21.11.2026 tarihine kadar nitelikli e-imza ile onaylanması",
+          "Dosyanın § 50 BRAO uyarınca Alman ISO-27001 sunucularında 6 yıl saklanması",
+          "Not: AI asistan yalnızca dosyadaki belgeleri açıklar, bireysel hukuki danışmanlık yerine geçmez"
+        ]
+      }
+    },
+    "agenticCapabilityHint": "Canlı Aksiyon: Vekaletnameyi onayla & Dr. Lindner ile görüşme ayarla"
+  },
+  "finance-accounting": {
+    "industry": "Finans, Vergi & Sigorta",
+    "title": "Korumalı Finans, Vergi & Poliçe Kasası",
+    "subtitle": "PIN kilitli finans kasası: Q4 vergi takvimi, ticari sigorta poliçeleri, kredi ödeme planı ve BWA raporu.",
+    "aiPersonaName": "AI Finans & Poliçe Analisti",
+    "aiWelcomeMessage": "FinanzHaus Rhein kasanıza hoş geldiniz! Q4 vergi takvimi (42.860 €), ticari sigorta limitleri veya KfW kredi planı hakkında sorabilirsiniz.",
+    "quickQuestions": [
+      "Aralık 2026’da tam olarak hangi vergi ödemeleri var?",
+      "Ticari sorumluluk ve siber sigorta poliçelerimiz neleri kapsıyor?",
+      "KfW kredisinin kalan borcu ve sabit faiz oranı nedir?"
+    ],
+    "documents": {
+      "fin-doc-1": "BWA & Q4 Vergi Takvimi",
+      "fin-doc-2": "Ticari & Siber Sigorta Poliçeleri",
+      "fin-doc-3": "KfW Kredi Geri Ödeme Planı"
+    },
+    "sections": {
+      "fin-sec-1": {
+        "title": "Vergi Ödemeleri & Likidite Özeti",
+        "summary": "10.12.2026 vadeli: Kurumlar vergisi peşinatı (18.400 €), Hamburg ticaret vergisi (11.960 €) ve Kasım KDV (12.500 €).",
+        "keyPoints": [
+          "Ekim 2026 itibarıyla kümülatif BWA cirosu: 1.940.000 € (+%14,2), FAVÖK marjı %16,8",
+          "Finanzamt Hamburg-Mitte için SEPA otomatik ödeme talimatı aktif",
+          "Yıl sonu kapanış mali müşavirlik ücreti halihazırda giderleştirildi"
+        ]
+      },
+      "fin-sec-2": {
+        "title": "Sigorta Teminatları & Kredi Koşulları",
+        "summary": "Ticari sorumluluk (5M € teminat, yıllık 2.940 € prim) ve Siber poliçe (1M € limit, 2.500 € muafiyet). KfW kredisi 2031’e kadar %2,85 sabit.",
+        "keyPoints": [
+          "Aylık KfW taksiti: 3.120 € (508 € faiz + 2.612 € anapara)",
+          "30 Aralık tarihinde yılda 15.000 €’ya kadar ücretsiz erken ödeme hakkı",
+          "Poliçe yenileme/değişiklik bildirim süresi 30 Eylül’den 3 ay önce biter"
+        ]
+      }
+    },
+    "agenticCapabilityHint": "Canlı Aksiyon: Eksik fiş yükle veya mali müşavir görüşmesi planla"
+  }
+}

@@ -1,0 +1,306 @@
+{
+  "marketing-agency": {
+    "industry": "Advertising & Marketing Agency",
+    "title": "B2B Growth Proposal & Media Plan Q2/2026",
+    "subtitle": "LinkedIn Ads, search performance, and 12 creative video assets with monthly ROI attribution.",
+    "aiPersonaName": "AI Campaign Advisor",
+    "aiWelcomeMessage": "Welcome to your Bergmann Digital proposal! Ask me about the €14,800 Q2 media plan, target CPL, or creative deliverables.",
+    "quickQuestions": [
+      "How is the €14,800 quarterly budget allocated?",
+      "What target CPL and lead volume are projected?",
+      "What is the notice period after the initial term?"
+    ],
+    "documents": {
+      "mkt-doc-1": "Custom B2B Proposal",
+      "mkt-doc-2": "Media Plan & Spend Split",
+      "mkt-doc-3": "Creative Concepts & ROI Model"
+    },
+    "sections": {
+      "mkt-sec-1": {
+        "title": "Scope & Channel Budget Split",
+        "summary": "Covers campaign management & creative production (€7,200) plus managed ad spend across LinkedIn DACH and Google Search (€7,600).",
+        "keyPoints": [
+          "LinkedIn ABM Ads (Munich, Frankfurt, Zurich): €4,800 ad spend",
+          "Google Search high-intent keywords: €2,800 ad spend",
+          "12 motion creatives & 4 A/B landing pages included"
+        ]
+      },
+      "mkt-sec-2": {
+        "title": "Projected KPIs & Attribution",
+        "summary": "Target cost per qualified B2B decision-maker between €69 and €89 with weekly attribution reporting.",
+        "keyPoints": [
+          "Campaign launch within 10 business days of kick-off",
+          "Initial term: 3 months, 30-day notice prior to quarter end",
+          "Client retains 100% ownership of all ad accounts and data"
+        ]
+      }
+    },
+    "agenticCapabilityHint": "Production Action: Approve proposal & book kick-off call"
+  },
+  "real-estate": {
+    "industry": "Luxury Real Estate",
+    "title": "Penthouse Bogenhausen • Exposé & Draft Contract",
+    "subtitle": "218 m² living space, Energy Class A+, 2 underground parking bays & notary draft.",
+    "aiPersonaName": "AI Property Concierge",
+    "aiWelcomeMessage": "Welcome! Ask me anything about this €2,450,000 Munich penthouse, monthly Hausgeld, Bavaria closing costs, or floorplan specs.",
+    "quickQuestions": [
+      "What are the monthly Hausgeld fees and Bavaria closing costs?",
+      "When is the handover date and are parking bays included?",
+      "What heating system and energy certificate class apply?"
+    ],
+    "documents": {
+      "re-doc-1": "Architectural Exposé & Floorplan",
+      "re-doc-2": "Energy Certificate (Class A+)",
+      "re-doc-3": "Draft Notary Purchase Agreement"
+    },
+    "sections": {
+      "re-sec-1": {
+        "title": "Property Specifications & Finishes",
+        "summary": "First occupancy in prime Munich-Bogenhausen featuring private lift access, 64 m² SW roof terrace, and KNX automation.",
+        "keyPoints": [
+          "Purchase price incl. 2 underground parking spaces: €2,450,000",
+          "Energy Class A+ (24.5 kWh/m²·yr, geothermal heat pump)",
+          "Monthly Hausgeld fee: €685 (incl. maintenance reserve)"
+        ]
+      },
+      "re-sec-2": {
+        "title": "Closing Costs & Transfer Timeline",
+        "summary": "Bavaria transfer tax 3.5% (€85,750), notary/registry ~1.5% (€36,750), buyer brokerage 2.975% incl. VAT.",
+        "keyPoints": [
+          "14-day priority reservation available at no extra fee",
+          "Delivered with 5-year statutory BGB new-build warranty",
+          "Land register (Grundbuch) transferred 100% free of encumbrances"
+        ]
+      }
+    },
+    "agenticCapabilityHint": "Production Action: Book private on-site viewing"
+  },
+  "auto-leasing": {
+    "industry": "Automotive & Leasing",
+    "title": "Porsche Taycan 4S • Leasing Offer & VIN Report",
+    "subtitle": "48-month business lease with €0 down, 15,000 km/year, full service history & DEKRA report.",
+    "aiPersonaName": "AI Auto & Leasing Advisor",
+    "aiWelcomeMessage": "Welcome to Autohaus Stern! Ask about the €1,190/mo business lease, VIN inspection, battery warranty, or excess mileage fees.",
+    "quickQuestions": [
+      "What is included in the €1,190 rate and what are excess km fees?",
+      "What did the VIN check and DEKRA inspection confirm?",
+      "How long is the high-voltage battery warranty valid?"
+    ],
+    "documents": {
+      "auto-doc-1": "Lease Calculation & Schedule",
+      "auto-doc-2": "VIN History & DEKRA Report",
+      "auto-doc-3": "Options List & Approved Warranty"
+    },
+    "sections": {
+      "auto-sec-1": {
+        "title": "Vehicle Specs & Lease Terms",
+        "summary": "Porsche Taycan 4S Performance Plus (04/2025, 14,200 km, Volcano Grey), 100% accident-free single-owner unit.",
+        "keyPoints": [
+          "€0 down payment • 48 months • 15,000 km/yr (+2,500 km tolerance)",
+          "Excess mileage: €0.14/km net • Unused mileage credit: €0.08/km",
+          "DEKRA battery State of Health: 98.4% (factory warranty until 04/2033)"
+        ]
+      },
+      "auto-sec-2": {
+        "title": "Included Services & Delivery",
+        "summary": "Includes 24-month Porsche Approved warranty, 20-inch winter wheel set, and enclosed nationwide delivery.",
+        "keyPoints": [
+          "Optional full-service maintenance add-on: +€85 net / month",
+          "Eligible for German EV company car tax incentives",
+          "Registration and delivery completed within 5 business days"
+        ]
+      }
+    },
+    "agenticCapabilityHint": "Production Action: Schedule test drive & submit lease KYC"
+  },
+  "medical-clinic": {
+    "industry": "Medical & Dental Clinic",
+    "title": "Personalized Dental Treatment & Cost Plan",
+    "subtitle": "2 Straumann implants, all-ceramic crowns, insurance subsidy breakdown & post-op care.",
+    "aiPersonaName": "AI Patient Care Assistant",
+    "aiWelcomeMessage": "Hello Ms. Hoffmann! Ask me about your treatment plan (€3,940 net out-of-pocket), the 3 clinical stages, or pre/post-op instructions.",
+    "quickQuestions": [
+      "How is my €3,940 out-of-pocket share calculated?",
+      "What are the eating and care rules before and after surgery?",
+      "Are 0% installment payment plans available?"
+    ],
+    "documents": {
+      "med-doc-1": "Official Cost & Treatment Plan",
+      "med-doc-2": "3-Stage Clinical Schedule",
+      "med-doc-3": "Pre- & Post-Operative Care Guide"
+    },
+    "sections": {
+      "med-sec-1": {
+        "title": "Fee Breakdown & Insurance Share",
+        "summary": "Total clinical & master lab fee: €6,850, minus statutory subsidy (€1,420) and private dental add-on (€1,490).",
+        "keyPoints": [
+          "0% interest installment option over 12 months (€328.33/mo)",
+          "5-year clinical warranty with annual hygiene checkups",
+          "3D CBCT scan and surgical guide already included"
+        ]
+      },
+      "med-sec-2": {
+        "title": "Clinical Phases & Recovery Rules",
+        "summary": "Stage 1: Placement under local anesthesia (60 min). Stage 2: Suture check Day 7. Stage 3: Final ceramic crowns Week 10.",
+        "keyPoints": [
+          "Surgery morning: eat a light breakfast; avoid alcohol 24h prior",
+          "Post-op: intermittent ice cooling 48h; no coffee/smoking for 72h",
+          "24/7 post-op clinic emergency contact inside this portal"
+        ]
+      }
+    },
+    "agenticCapabilityHint": "Production Action: Confirm surgery slot & digital intake"
+  },
+  "construction-interior": {
+    "industry": "Construction & Interior Design",
+    "title": "3D Interior Remodel & Itemized Cost Estimate",
+    "subtitle": "145 m² turnkey remodel across 4 phases with oak flooring, bespoke kitchen, lighting & 5-yr warranty.",
+    "aiPersonaName": "AI Architecture & Cost Advisor",
+    "aiWelcomeMessage": "Welcome to BauWerk Berlin! Ask about the €84,500 itemized estimate, the 4 build phases, material specs, or payment milestones.",
+    "quickQuestions": [
+      "How is the €84,500 budget split across the 4 construction phases?",
+      "Which materials are specified for kitchen, bathroom, and flooring?",
+      "What are the milestone payments and VOB/BGB warranties?"
+    ],
+    "documents": {
+      "con-doc-1": "Itemized Bill of Quantities",
+      "con-doc-2": "3D Render Spec & Lighting Plan",
+      "con-doc-3": "Build Timeline & Warranty Terms"
+    },
+    "sections": {
+      "con-sec-1": {
+        "title": "Construction Phases & Cost Breakdown",
+        "summary": "Phase 1 Demolition/Shell (€14,200), Phase 2 MEP/KNX (€24,800), Phase 3 Flooring/Walls/Doors (€19,500), Phase 4 Bespoke Kitchen & Millwork (€26,000).",
+        "keyPoints": [
+          "Specified finishes: natural oak wide-plank, Dekton ceramic worktop, DALI track lighting",
+          "90-day fixed-price guarantee from proposal issue date",
+          "Dust-containment barriers and weekly photo site logs included"
+        ]
+      },
+      "con-sec-2": {
+        "title": "Milestones & Handover Protection",
+        "summary": "30% at start, 35% after MEP rough-in, 25% after flooring/painting, final 10% held until defect-free handover.",
+        "keyPoints": [
+          "5-year statutory BGB warranty covering all structural & installation trades",
+          "Delay penalty clause: 0.2% per business day past Week 12",
+          "Full DIN VDE electrical compliance certificate delivered at handover"
+        ]
+      }
+    },
+    "agenticCapabilityHint": "Production Action: Book showroom material selection slot"
+  },
+  "hospitality-stay": {
+    "industry": "Hospitality, Hotels & Airbnb",
+    "title": "Digital Guest Concierge • Chalet Zugspitze #4",
+    "subtitle": "Self check-in code, 1-tap Wi-Fi, private sauna guide, house rules & local Alpine recommendations.",
+    "aiPersonaName": "AI Digital Concierge (24/7)",
+    "aiWelcomeMessage": "Welcome to Chalet Zugspitze #4! Ask me for the smart lock PIN, Wi-Fi details, sauna instructions, breakfast delivery, or ski pass info.",
+    "quickQuestions": [
+      "What are the smart door code, Wi-Fi password, and sauna steps?",
+      "When is check-out and where is the EV wallbox charger?",
+      "Which Alpine restaurants and cable cars are nearby?"
+    ],
+    "documents": {
+      "stay-doc-1": "Check-In, Wi-Fi & House Rules",
+      "stay-doc-2": "Sauna, Fireplace & EV Charger Guide",
+      "stay-doc-3": "Curated Garmisch Insider Guide"
+    },
+    "sections": {
+      "stay-sec-1": {
+        "title": "Smart Access, Wi-Fi & Chalet Tech",
+        "summary": "Contactless check-in from 15:00 via Nuki keypad (guest code: #849201). Fiber Wi-Fi “AlpenGlueh_5G”, pass: “Zugspitze2026!”.",
+        "keyPoints": [
+          "Check-out by 10:30 (late check-out until 13:00 available for +€45)",
+          "Private pine sauna: control switch inside bath, reaches 85 °C in 25 min",
+          "11 kW EV Wallbox at carport #4 (tap the RFID fob on your key ring)"
+        ]
+      },
+      "stay-sec-2": {
+        "title": "Bakery Delivery, Dining & Excursions",
+        "summary": "Fresh morning bakery basket delivered at 07:30 (order by 18:00). Zugspitze cable car valley station is an 8-minute drive.",
+        "keyPoints": [
+          "Top dining: “Gasthof Zum Wildschütz” (600 m walk) & “Alpenhof Bistro”",
+          "“Gipfelglück” breakfast basket for 2 guests: €18 / day",
+          "Quiet terrace hours after 22:00 • Smoke-free interior (balcony permitted)"
+        ]
+      }
+    },
+    "agenticCapabilityHint": "Production Action: Request late check-out or breakfast basket"
+  },
+  "legal-contracts": {
+    "industry": "Law Firm & Contracts",
+    "title": "Protected Legal Dossier • B2B Master Agreement",
+    "subtitle": "PIN-protected legal vault featuring draft agreement, power of attorney, liability caps & statutory deadlines.",
+    "aiPersonaName": "AI Legal Dossier Assistant",
+    "aiWelcomeMessage": "Welcome to your protected client dossier! Ask me to explain any clause in the draft B2B agreement, liability caps (§ 8), or filing deadlines.",
+    "quickQuestions": [
+      "What is the liability cap under Section 8 of the agreement?",
+      "What notice periods and liquidated damages apply in Section 11?",
+      "What is the deadline to sign the Power of Attorney?"
+    ],
+    "documents": {
+      "leg-doc-1": "Draft B2B Master Agreement",
+      "leg-doc-2": "Power of Attorney (Mandate)",
+      "leg-doc-3": "Deadlines & Fee Schedule (RVG)"
+    },
+    "sections": {
+      "leg-sec-1": {
+        "title": "Reviewed Key Clauses & Risk Notes",
+        "summary": "Counsel markup on § 8: cap ordinary negligence liability at €185,000 (1x contract value) instead of unlimited exposure.",
+        "keyPoints": [
+          "§ 11 Confidentiality (NDA): 5-year survival post-termination; €25,000 penalty per breach",
+          "§ 14 Governing Law & Venue: German law (BGB/HGB), exclusive courts of Frankfurt am Main",
+          "Termination notice: 3 months prior to year-end; immediate cause if invoice overdue > 30 days"
+        ]
+      },
+      "leg-sec-2": {
+        "title": "Action Deadlines & Counsel Retainer",
+        "summary": "Counterparty redline submission deadline: 28 Nov 2026. Fixed legal fee covering full contract review & negotiation: €3,400 net.",
+        "keyPoints": [
+          "Signed Power of Attorney requested by 21 Nov 2026 via qualified e-signature",
+          "Dossier archived under § 50 BRAO for 6 years on German ISO-27001 infrastructure",
+          "Note: AI assistant explains existing dossier text and does not replace counsel advice"
+        ]
+      }
+    },
+    "agenticCapabilityHint": "Production Action: Approve Power of Attorney & book partner call"
+  },
+  "finance-accounting": {
+    "industry": "Finance, Tax & Insurance",
+    "title": "Protected Financial, Tax & Insurance Vault",
+    "subtitle": "PIN-locked executive vault containing Q4 tax schedule, commercial policies, loan amortization & BWA report.",
+    "aiPersonaName": "AI Finance & Policy Analyst",
+    "aiWelcomeMessage": "Welcome to your FinanzHaus Rhein vault! Ask about Q4 tax due dates (€42,860), commercial insurance limits, or your KfW loan amortization.",
+    "quickQuestions": [
+      "Which exact tax payments are due in December 2026?",
+      "What do our commercial liability and cyber policies cover?",
+      "What are the remaining balance and fixed rate on the KfW loan?"
+    ],
+    "documents": {
+      "fin-doc-1": "BWA & Q4 Tax Calendar",
+      "fin-doc-2": "Commercial & Cyber Insurance Policies",
+      "fin-doc-3": "KfW Loan Amortization Schedule"
+    },
+    "sections": {
+      "fin-sec-1": {
+        "title": "Tax Schedule & Liquidity Breakdown",
+        "summary": "Due 10 Dec 2026: Corporate tax prepayment (€18,400), Hamburg trade tax (€11,960), and November VAT advance (€12,500).",
+        "keyPoints": [
+          "YTD BWA revenue through Oct 2026: €1,940,000 (+14.2% YoY), EBITDA margin 16.8%",
+          "SEPA direct debit mandate active for Finanzamt Hamburg-Mitte",
+          "Year-end closing accounting retainer already accrued"
+        ]
+      },
+      "fin-sec-2": {
+        "title": "Insurance Coverage & Loan Terms",
+        "summary": "Commercial liability (€5M limit, €2,940/yr premium) & Cyber policy (€1M limit, €2,500 deductible). KfW loan fixed at 2.85% until 2031.",
+        "keyPoints": [
+          "Monthly KfW payment: €3,120 (€508 interest + €2,612 principal)",
+          "Free annual extra repayment up to €15,000 permitted on 30 December",
+          "Policy renewal/adjustment window closes 3 months prior to 30 Sept"
+        ]
+      }
+    },
+    "agenticCapabilityHint": "Production Action: Upload missing receipt or book CPA review"
+  }
+}

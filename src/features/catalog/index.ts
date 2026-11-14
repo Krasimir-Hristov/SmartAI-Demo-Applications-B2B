@@ -1,5 +1,14 @@
-/**
- * Typed catalog of the 8 DACH business demo portals and their fixed RAG System Prompts.
- * Will be fully implemented in Step 1.
- */
-export const CATALOG_MODULE_VERSION = '0.1.0' as const;
+export { ALL_DEMOS, buildFallbackRagReply, buildRagSystemPrompt, getDemoBySlug } from './ragPrompts';
+export { useDemoCopy } from './useDemoCopy';
+export {
+  DEMO_VERTICAL_SLUGS,
+  type DemoAccentPalette,
+  type DemoAccessMode,
+  type DemoCredentials,
+  type DemoDocumentMeta,
+  type DemoSectionCopy,
+  type DemoSectionMeta,
+  type DemoVerticalConfig,
+  type DemoVerticalCopy,
+  type DemoVerticalSlug,
+} from './types';

@@ -1,0 +1,127 @@
+{
+  "brand": {
+    "name": "SmartAI",
+    "subtitle": "Custom RAG Client Portals",
+    "editionBadge": "DACH Edition • GDPR Ready"
+  },
+  "nav": {
+    "backToHub": "Back to All Demos",
+    "clientView": "Client View",
+    "catalogTab": "8 Demo Portals",
+    "adminView": "Admin Dashboard",
+    "qrLinkButton": "Link & QR",
+    "languageLabel": "Select language",
+    "primaryNavAria": "Primary Presentation Navigation"
+  },
+  "hero": {
+    "eyebrow": "Personalized Client Portals with Isolated RAG Intelligence",
+    "title": "Every Proposal. Every Contract.",
+    "titleHighlight": "Paired with a dedicated AI advisor via personal link.",
+    "description": "Give each client a bespoke portal containing their exact quote, property exposé, treatment plan, or legal dossier — powered by a dedicated AI consultant grounded strictly in that client’s documents.",
+    "pillDach": "DACH & GDPR Compliant",
+    "pillPersonalLink": "Personal Link (+ optional QR option)",
+    "pillIsolatedRag": "Strict XML Document Isolation",
+    "sectionHeading": "8 Industry Demonstrations",
+    "sectionSubheading": "Pick any vertical to explore the client split-screen view with the live RAG chatbot or switch to the Admin Dashboard above."
+  },
+  "card": {
+    "openPortal": "Open Portal",
+    "qrAndLink": "Link / QR",
+    "documentsLabel": "RAG Knowledge",
+    "chunksSuffix": "chunks",
+    "accessOpenLink": "Open Link",
+    "accessOpenQr": "Link + QR Plate",
+    "accessPinProtected": "User + Password + PIN"
+  },
+  "agenticStrip": {
+    "badge": "Production Expansion",
+    "title": "From Document Q&A to Automated Business Actions",
+    "subtitle": "In live production deployments, these custom RAG portals can capture structured client data and trigger real workflows:",
+    "actionCalendarTitle": "Calendar & Appointment Booking",
+    "actionCalendarDesc": "Schedule property viewings, consultations, or clinic visits directly.",
+    "actionKycTitle": "Structured Intake & KYC",
+    "actionKycDesc": "Collect verified client details for contracts, leasing, or invoicing.",
+    "actionConfirmTitle": "Proposal Approval & CRM Trigger",
+    "actionConfirmDesc": "Record client sign-offs and alert account managers automatically."
+  },
+  "qrModal": {
+    "title": "Personal Client Link & QR Option",
+    "subtitle": "Clients primarily access their portal directly through this personal link (shared via email, WhatsApp, or SMS). The QR code is a secondary convenience option for mobile scanning or print.",
+    "personalUrlLabel": "Personal Portal URL",
+    "copyLink": "Copy Link",
+    "copied": "Copied!",
+    "qrSecondaryNote": "Secondary Option: Instant mobile handoff via QR scan",
+    "openDemoNow": "Open Demo Portal",
+    "close": "Close"
+  },
+  "pinGate": {
+    "badge": "Confidential Client Dossier",
+    "title": "Protected Sign-In Required",
+    "description": "This portal contains confidential legal, tax, or financial records and requires a username, password, and 4-digit security PIN.",
+    "demoCredentialsTitle": "Presentation Demo Credentials",
+    "usernameLabel": "Username",
+    "passwordLabel": "Password",
+    "pinLabel": "4-Digit Security PIN",
+    "autoFillButton": "1-Click Auto-Fill & Unlock",
+    "unlockButton": "Unlock Portal",
+    "invalidError": "Invalid credentials. Use the 1-Click Auto-Fill button for instant demo access.",
+    "backReminder": "You can return to the main showcase at any time using the top bar."
+  },
+  "portal": {
+    "offerRefLabel": "Reference",
+    "clientLabel": "Client",
+    "dossierHeading": "Verified Proposal & Document Contents",
+    "documentsHeading": "Indexed Client Knowledge Files",
+    "agenticPreviewHeading": "Concept Preview: Production Next Action",
+    "agenticPreviewCta": "Simulate Booking / Offer Confirmation",
+    "agenticPreviewToast": "Demo notice: In production, this action writes directly to your calendar or CRM pipeline.",
+    "stepBadge": "Step 1 • Interactive Document & RAG Core",
+    "collapseChat": "Focus Document",
+    "expandChat": "Show AI Advisor",
+    "chatLauncher": "Ask AI Advisor"
+  },
+  "chat": {
+    "liveBadge": "OpenRouter RAG Live",
+    "fallbackBadge": "Local RAG Engine",
+    "quickQuestionsLabel": "Quick questions about this file:",
+    "inputPlaceholder": "Ask about pricing, timelines, or clauses...",
+    "sendButton": "Send",
+    "clearButton": "Reset",
+    "thinkingLabel": "Checking verified client dossier...",
+    "errorFallback": "Temporary connection issue — please try again.",
+    "disclaimer": "Answers strictly from verified client documents and responds in your language automatically."
+  },
+  "admin": {
+    "badge": "Admin Dashboard Preview",
+    "title": "How Your Team Configures a Client Portal",
+    "subtitle": "Visual walkthrough of the management panel: upload client files, pick access protection, and generate a personal link. Interactive changes here are visual previews and do not alter the fixed demo RAG prompt.",
+    "selectPortalLabel": "Select Client Dossier / Industry",
+    "docsCardTitle": "1. Manage RAG Knowledge Documents",
+    "docsCardHint": "PDF quotes, exposés, schedules, or contracts are isolated per client.",
+    "addDocButton": "+ Add Sample Document",
+    "newDocPrefix": "Addendum_ClientSpec",
+    "uploadedPrefix": "Uploaded Attachment",
+    "securityCardTitle": "2. Configure Access & Security",
+    "modeOpen": "Open Personal Link",
+    "modeOpenQr": "Open Link + QR Plate (SmartScan Stay)",
+    "modePin": "Username + Password + 4-Digit PIN",
+    "credentialsPreviewTitle": "Generated Protected Credentials",
+    "linkCardTitle": "3. Personal Link & Delivery",
+    "copyUrl": "Copy URL",
+    "copiedUrl": "Copied!",
+    "openQrModal": "Show QR Code",
+    "openClientPortal": "Launch Client View",
+    "ragStatusTitle": "Security & Isolation Status",
+    "ragStatusItems": {
+      "item1": "XML context isolation active (zero cross-client leakage)",
+      "item2": "Prompt-injection defense boundary enforced",
+      "item3": "Automatic 4-language AI output (DE / BG / EN / TR)",
+      "item4": "GDPR-aligned zero-DB demonstration architecture"
+    },
+    "simulationNotice": "Presentation mode: toggles illustrate your team’s onboarding workflow."
+  },
+  "footer": {
+    "compliance": "SmartAI Demo Applications • Tailored for DACH Enterprises",
+    "zeroDbNote": "Isolated Demo Environment • No live personal data persisted"
+  }
+}

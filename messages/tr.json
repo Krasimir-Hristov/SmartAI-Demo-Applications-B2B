@@ -1,0 +1,127 @@
+{
+  "brand": {
+    "name": "SmartAI",
+    "subtitle": "Özel RAG Müşteri Portalları",
+    "editionBadge": "DACH Sürümü • DSGVO Uyumlu"
+  },
+  "nav": {
+    "backToHub": "Tüm Demolara Dön",
+    "clientView": "Müşteri Görünümü",
+    "catalogTab": "8 Demo Portal",
+    "adminView": "Yönetici Paneli",
+    "qrLinkButton": "Bağlantı & QR",
+    "languageLabel": "Dil seçin",
+    "primaryNavAria": "Ana Sunum Gezintisi"
+  },
+  "hero": {
+    "eyebrow": "İzole RAG Zekasına Sahip Kişiselleştirilmiş Müşteri Portalları",
+    "title": "Her Teklif. Her Sözleşme.",
+    "titleHighlight": "Kişisel bağlantı ile özel AI danışmanı.",
+    "description": "Müşterilerinize tekliflerini, emlak dosyalarını, tedavi planlarını veya hukuki belgelerini yalnızca o müşterinin belgelerine dayalı çalışan özel bir AI danışmanıyla anında sunun.",
+    "pillDach": "DACH & DSGVO Uyumlu",
+    "pillPersonalLink": "Kişisel Bağlantı (+ opsiyonel QR)",
+    "pillIsolatedRag": "Sıkı XML Belge İzolasyonu",
+    "sectionHeading": "8 Sektör Demosu",
+    "sectionSubheading": "Canlı RAG sohbet botu ile müşteri ekranını test etmek için bir sektör seçin veya yukarıdan Yönetici Paneline geçin."
+  },
+  "card": {
+    "openPortal": "Portalı Aç",
+    "qrAndLink": "Bağlantı / QR",
+    "documentsLabel": "RAG Bilgi Tabanı",
+    "chunksSuffix": "bölüm",
+    "accessOpenLink": "Açık Bağlantı",
+    "accessOpenQr": "Bağlantı + QR",
+    "accessPinProtected": "Kullanıcı + Şifre + PIN"
+  },
+  "agenticStrip": {
+    "badge": "Canlı Sistem Genişlemesi",
+    "title": "Belge Yanıtlarından Otomatik İş Süreçlerine",
+    "subtitle": "Canlı kurumsal ortamlarda bu özel RAG portalları yapılandırılmış veri toplayıp otomatik aksiyonlar başlatabilir:",
+    "actionCalendarTitle": "Takvim & Randevu Planlama",
+    "actionCalendarDesc": "Mülk gezisi, danışmanlık veya klinik randevularını doğrudan senkronize edin.",
+    "actionKycTitle": "Yapılandırılmış Veri Toplama",
+    "actionKycDesc": "Sözleşme, leasing veya fatura için müşteri bilgilerini güvenle alın.",
+    "actionConfirmTitle": "Teklif Onayı & CRM Tetikleyici",
+    "actionConfirmDesc": "Müşteri onayını kaydedip ekibinize anında bildirim gönderin."
+  },
+  "qrModal": {
+    "title": "Kişisel Müşteri Bağlantısı & QR Seçeneği",
+    "subtitle": "Müşteri portala öncelikle bu kişisel bağlantı üzerinden (e-posta, WhatsApp veya SMS) erişir. QR kodu, telefonla hızlı tarama veya basılı materyaller için ikincil bir seçenektir.",
+    "personalUrlLabel": "Kişisel Portal Adresi",
+    "copyLink": "Bağlantıyı Kopyala",
+    "copied": "Kopyalandı!",
+    "qrSecondaryNote": "İkincil Seçenek: QR tarama ile hızlı mobil erişim",
+    "openDemoNow": "Demoyu Şimdi Aç",
+    "close": "Kapat"
+  },
+  "pinGate": {
+    "badge": "Gizli Müşteri Dosyası",
+    "title": "Korumalı Giriş Gerekli",
+    "description": "Bu portal gizli hukuki, vergisel veya finansal belgeler içerir ve kullanıcı adı, şifre ile 4 haneli güvenlik PIN kodu gerektirir.",
+    "demoCredentialsTitle": "Sunum Demo Giriş Bilgileri",
+    "usernameLabel": "Kullanıcı Adı",
+    "passwordLabel": "Şifre",
+    "pinLabel": "4 Haneli Güvenlik PIN",
+    "autoFillButton": "1-Tıkla Doldur & Giriş Yap",
+    "unlockButton": "Portalı Aç",
+    "invalidError": "Geçersiz bilgiler. Hızlı demo erişimi için 1-Tıkla Doldur butonunu kullanın.",
+    "backReminder": "Üst çubuğu kullanarak istediğiniz zaman ana ekrana dönebilirsiniz."
+  },
+  "portal": {
+    "offerRefLabel": "Referans",
+    "clientLabel": "Müşteri",
+    "dossierHeading": "Onaylı Teklif & Belge İçeriği",
+    "documentsHeading": "RAG Sistemindeki Müşteri Belgeleri",
+    "agenticPreviewHeading": "Konsept Önizleme: Canlı Sistem Aksiyonu",
+    "agenticPreviewCta": "Randevu / Teklif Onayı Simüle Et",
+    "agenticPreviewToast": "Demo notu: Canlı ortamda bu istek doğrudan takviminize veya CRM sisteminize aktarılır.",
+    "stepBadge": "Adım 1 • Etkileşimli Belge & RAG Çekirdeği",
+    "collapseChat": "Belgeye Odaklan",
+    "expandChat": "AI Danışmanı Göster",
+    "chatLauncher": "AI Danışmana Sor"
+  },
+  "chat": {
+    "liveBadge": "OpenRouter RAG Aktif",
+    "fallbackBadge": "Yerel RAG Motoru",
+    "quickQuestionsLabel": "Belge hakkında hızlı sorular:",
+    "inputPlaceholder": "Fiyat, süre veya maddeler hakkında soru sorun...",
+    "sendButton": "Gönder",
+    "clearButton": "Sıfırla",
+    "thinkingLabel": "Müşteri belgeleri inceleniyor...",
+    "errorFallback": "Geçici bağlantı hatası — lütfen tekrar deneyin.",
+    "disclaimer": "Yalnızca onaylı müşteri belgelerine göre yanıt verir ve dilinizi otomatik algılar."
+  },
+  "admin": {
+    "badge": "Yönetici Paneli Önizlemesi",
+    "title": "Ekibiniz Yeni Bir Müşteri Portalını Nasıl Hazırlar?",
+    "subtitle": "Yönetim arayüzünün görsel sunumu: belgeleri yükleyin, erişim güvenliğini seçin ve kişisel bağlantıyı oluşturun. Buradaki değişiklikler canlı önizlemedir ve sabit demo RAG bağlamını değiştirmez.",
+    "selectPortalLabel": "Müşteri Dosyası / Sektör Seçin",
+    "docsCardTitle": "1. RAG Bilgi Belgelerini Yönetin",
+    "docsCardHint": "PDF teklifler, emlak dosyaları veya sözleşmeler müşteri bazında izole edilir.",
+    "addDocButton": "+ Örnek Belge Ekle",
+    "newDocPrefix": "Ek_Belge_Musteri",
+    "uploadedPrefix": "Yüklenen Ek Belge",
+    "securityCardTitle": "2. Erişim ve Güvenlik Ayarları",
+    "modeOpen": "Açık Kişisel Bağlantı",
+    "modeOpenQr": "Bağlantı + QR Plakası (SmartScan Stay)",
+    "modePin": "Kullanıcı Adı + Şifre + 4 Haneli PIN",
+    "credentialsPreviewTitle": "Oluşturulan Korumalı Giriş Bilgileri",
+    "linkCardTitle": "3. Kişisel Bağlantı ve Paylaşım",
+    "copyUrl": "URL Kopyala",
+    "copiedUrl": "Kopyalandı!",
+    "openQrModal": "QR Kodunu Göster",
+    "openClientPortal": "Müşteri Görünümünü Aç",
+    "ragStatusTitle": "Güvenlik ve İzolasyon Durumu",
+    "ragStatusItems": {
+      "item1": "XML bağlam izolasyonu aktif (müşteri verileri asla karışmaz)",
+      "item2": "Prompt Injection koruma katmanı aktif",
+      "item3": "Otomatik 4 dilli AI yanıtı (DE / BG / EN / TR)",
+      "item4": "DSGVO uyumlu veritabanısız demo mimarisi"
+    },
+    "simulationNotice": "Sunum modu: ayarlar ekip içi iş akışını göstermek içindir."
+  },
+  "footer": {
+    "compliance": "SmartAI Demo Applications • DACH İş Dünyası İçin Geliştirildi",
+    "zeroDbNote": "İzole Demo Ortamı • Gerçek kişisel veriler saklanmaz"
+  }
+}

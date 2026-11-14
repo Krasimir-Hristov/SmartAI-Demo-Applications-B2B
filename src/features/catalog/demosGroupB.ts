@@ -1,0 +1,118 @@
+import type { DemoVerticalConfig } from './types';
+
+export const DEMOS_GROUP_B: readonly DemoVerticalConfig[] = [
+  {
+    slug: 'construction-interior',
+    numberLabel: '05',
+    accessMode: 'open_link',
+    companyName: 'BauWerk Interior & Architektur GmbH',
+    city: 'Berlin',
+    clientName: 'Familie Lindemann • Loft Prenzlauer Berg',
+    offerReference: 'KV-BER-2026-507',
+    headlineValue: '84.500 € Netto',
+    accent: {
+      badgeClasses: 'border-orange-500/30 bg-orange-500/15 text-orange-300',
+      borderHoverClasses: 'hover:border-orange-500/50',
+      glowClasses: 'from-orange-500/15 via-transparent to-transparent',
+      chipClasses: 'bg-orange-500/10 text-orange-300 border-orange-500/20',
+      primaryButtonClasses: 'bg-orange-400 hover:bg-orange-300 text-zinc-950',
+    },
+    documents: [
+      { id: 'con-doc-1', fileName: 'Kostenvoranschlag_Loft_145qm.xlsx', fileType: 'XLSX', sizeLabel: '1.9 MB', indexedChunks: 38 },
+      { id: 'con-doc-2', fileName: '3D_Raumkonzept_Grundriss_V3.cad', fileType: 'CAD', sizeLabel: '14.5 MB', indexedChunks: 21 },
+      { id: 'con-doc-3', fileName: 'Bauzeitenplan_VOB_Garantie.pdf', fileType: 'PDF', sizeLabel: '890 KB', indexedChunks: 17 },
+    ],
+    dossierSections: [
+      { id: 'con-sec-1', badge: 'GEWERKE & BUDGET (NETTO)', highlightMetric: '84.500 € • 12 Wochen Bauzeit' },
+      { id: 'con-sec-2', badge: 'ZAHLUNGSPLAN & BGB § 634a', highlightMetric: '5 Jahre Gewährleistung' },
+    ],
+  },
+  {
+    slug: 'hospitality-stay',
+    numberLabel: '06',
+    accessMode: 'open_link_qr',
+    companyName: 'AlpenGlüh Boutique Chalets (SmartScan Stay)',
+    city: 'Garmisch-Partenkirchen',
+    clientName: 'Gast: Lukas & Mia Schneider • Chalet Zugspitze #4',
+    offerReference: 'STAY-GAP-2026-409',
+    headlineValue: '19.11. – 24.11.2026 (5 Nächte)',
+    accent: {
+      badgeClasses: 'border-teal-500/30 bg-teal-500/15 text-teal-300',
+      borderHoverClasses: 'hover:border-teal-500/50',
+      glowClasses: 'from-teal-500/15 via-transparent to-transparent',
+      chipClasses: 'bg-teal-500/10 text-teal-300 border-teal-500/20',
+      primaryButtonClasses: 'bg-teal-400 hover:bg-teal-300 text-zinc-950',
+    },
+    documents: [
+      { id: 'stay-doc-1', fileName: 'CheckIn_WLAN_Hausregeln_Chalet4.pdf', fileType: 'PDF', sizeLabel: '1.4 MB', indexedChunks: 19 },
+      { id: 'stay-doc-2', fileName: 'Geraete_Sauna_Wallbox_Guide.pdf', fileType: 'PDF', sizeLabel: '2.1 MB', indexedChunks: 15 },
+      { id: 'stay-doc-3', fileName: 'Garmisch_Local_Insider_2026.pdf', fileType: 'PDF', sizeLabel: '3.7 MB', indexedChunks: 25 },
+    ],
+    dossierSections: [
+      { id: 'stay-sec-1', badge: 'CHECK-IN • SMART ACCESS & WI-FI', highlightMetric: 'WLAN: AlpenGlueh_5G' },
+      { id: 'stay-sec-2', badge: 'LOCAL GUIDE & SERVICE', highlightMetric: 'QR-Tafel im Chalet inkl.' },
+    ],
+  },
+  {
+    slug: 'legal-contracts',
+    numberLabel: '07',
+    accessMode: 'pin_protected',
+    credentials: {
+      username: 'mandant.mueller',
+      password: 'Kanzlei2026!DACH',
+      pin: '4829',
+    },
+    companyName: 'Kanzlei Dr. Lindner & Partner mbB',
+    city: 'Frankfurt am Main',
+    clientName: 'Mandant: Thomas Müller (Geschäftsführer NordTech GmbH)',
+    offerReference: 'AKTE-FFM-2026-119',
+    headlineValue: 'Streitwert / Volumen: 185.000 €',
+    accent: {
+      badgeClasses: 'border-indigo-500/30 bg-indigo-500/15 text-indigo-300',
+      borderHoverClasses: 'hover:border-indigo-500/50',
+      glowClasses: 'from-indigo-500/15 via-transparent to-transparent',
+      chipClasses: 'bg-indigo-500/10 text-indigo-300 border-indigo-500/20',
+      primaryButtonClasses: 'bg-indigo-400 hover:bg-indigo-300 text-zinc-950',
+    },
+    documents: [
+      { id: 'leg-doc-1', fileName: 'Entwurf_B2B_Rahmenvertrag_NordTech.docx', fileType: 'DOCX', sizeLabel: '480 KB', indexedChunks: 31 },
+      { id: 'leg-doc-2', fileName: 'Prozess_Verhandlungsvollmacht_Lindner.pdf', fileType: 'PDF', sizeLabel: '310 KB', indexedChunks: 12 },
+      { id: 'leg-doc-3', fileName: 'Fristenblatt_Honorarvereinbarung_RVG.pdf', fileType: 'PDF', sizeLabel: '420 KB', indexedChunks: 16 },
+    ],
+    dossierSections: [
+      { id: 'leg-sec-1', badge: '§ 8 & § 11 • VERTRAGSKLAUSELN', highlightMetric: 'Vertragsvolumen: 185.000 €' },
+      { id: 'leg-sec-2', badge: 'FRISTEN & MANDATSHONORAR', highlightMetric: 'Frist: 28.11.2026 • 16:00 Uhr' },
+    ],
+  },
+  {
+    slug: 'finance-accounting',
+    numberLabel: '08',
+    accessMode: 'pin_protected',
+    credentials: {
+      username: 'firma.weber',
+      password: 'Finanz2026!Rhein',
+      pin: '7391',
+    },
+    companyName: 'FinanzHaus Rhein Steuer & Versicherung',
+    city: 'Hamburg',
+    clientName: 'Weber Logistik GmbH (Steuer-Nr. 48/712/09412)',
+    offerReference: 'FIN-HAM-2026-603',
+    headlineValue: 'Steuerrückstellung: 42.860 €',
+    accent: {
+      badgeClasses: 'border-emerald-500/30 bg-emerald-500/15 text-emerald-300',
+      borderHoverClasses: 'hover:border-emerald-500/50',
+      glowClasses: 'from-emerald-500/15 via-transparent to-transparent',
+      chipClasses: 'bg-emerald-500/10 text-emerald-300 border-emerald-500/20',
+      primaryButtonClasses: 'bg-emerald-400 hover:bg-emerald-300 text-zinc-950',
+    },
+    documents: [
+      { id: 'fin-doc-1', fileName: 'BWA_Steuerkalender_Q4_2026_Weber.xlsx', fileType: 'XLSX', sizeLabel: '920 KB', indexedChunks: 28 },
+      { id: 'fin-doc-2', fileName: 'Policen_Betriebshaftpflicht_Cyber_2026.pdf', fileType: 'PDF', sizeLabel: '1.8 MB', indexedChunks: 23 },
+      { id: 'fin-doc-3', fileName: 'KfW_Tilgungsplan_Investitionskredit.pdf', fileType: 'PDF', sizeLabel: '640 KB', indexedChunks: 17 },
+    ],
+    dossierSections: [
+      { id: 'fin-sec-1', badge: 'STEUERTERMIN & LIQUIDITÄT Q4/2026', highlightMetric: 'Fällig 10.12.2026: 42.860 €' },
+      { id: 'fin-sec-2', badge: 'POLICEN & KfW-FINANZIERUNG', highlightMetric: 'Restschuld KfW: 214.000 € (2,85 %)' },
+    ],
+  },
+];
