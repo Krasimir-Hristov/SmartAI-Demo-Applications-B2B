@@ -15,7 +15,7 @@ export type DemoAccessMode = 'open_link' | 'open_link_qr' | 'pin_protected';
 
 export interface DemoCredentials {
   username: string;
-  password: string;
+  demoPass: string;
   pin: string;
 }
 

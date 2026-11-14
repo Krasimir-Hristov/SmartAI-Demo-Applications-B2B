@@ -19,7 +19,7 @@ export const ProtectedPinGate: React.FC<ProtectedPinGateProps> = ({
   const tGate = useTranslations('pinGate');
   const demoCopy = useDemoCopy(demo.slug);
   const [username, setUsername] = useState('');
-  const [password, setPassword] = useState('');
+  const [passInput, setPassInput] = useState('');
   const [pin, setPin] = useState('');
   const [error, setError] = useState<string | null>(null);
 
@@ -27,7 +27,7 @@ export const ProtectedPinGate: React.FC<ProtectedPinGateProps> = ({
     event.preventDefault();
     if (
       username.trim() === credentials.username &&
-      password === credentials.password &&
+      passInput === credentials.demoPass &&
       pin.trim() === credentials.pin
     ) {
       setError(null);
@@ -39,7 +39,7 @@ export const ProtectedPinGate: React.FC<ProtectedPinGateProps> = ({
 
   const handleAutoFillUnlock = () => {
     setUsername(credentials.username);
-    setPassword(credentials.password);
+    setPassInput(credentials.demoPass);
     setPin(credentials.pin);
     setError(null);
     onUnlock();
@@ -81,7 +81,7 @@ export const ProtectedPinGate: React.FC<ProtectedPinGateProps> = ({
             </div>
             <div className="rounded-lg border border-zinc-800/80 bg-zinc-950/70 px-2.5 py-1.5">
               <span className="block text-[10px] text-zinc-500">Pass</span>
-              <span className="truncate block">{credentials.password}</span>
+              <span className="truncate block">{credentials.demoPass}</span>
             </div>
             <div className="rounded-lg border border-zinc-800/80 bg-zinc-950/70 px-2.5 py-1.5">
               <span className="block text-[10px] text-zinc-500">PIN</span>
@@ -130,9 +130,9 @@ export const ProtectedPinGate: React.FC<ProtectedPinGateProps> = ({
               <input
                 id="gate-password"
                 type="password"
-                value={password}
-                onChange={(event) => setPassword(event.target.value)}
-                placeholder="••••••••••••"
+                value={passInput}
+                onChange={(event) => setPassInput(event.target.value)}
+                placeholder="••••"
                 aria-label={tGate('passwordLabel')}
                 className="w-full rounded-xl border border-zinc-800 bg-zinc-950 px-3.5 py-2.5 text-sm text-zinc-100 placeholder-zinc-600 outline-none focus:border-emerald-500/50"
               />

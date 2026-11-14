@@ -190,8 +190,8 @@ export const AdminDashboardPreview: React.FC<AdminDashboardPreviewProps> = ({
                   <span>{tAdmin('credentialsPreviewTitle')}</span>
                 </div>
                 <div className="space-y-1 font-mono text-[11px] text-zinc-200">
-                  <p>User: {selectedDemo.credentials?.username ?? 'mandant.dach'}</p>
-                  <p>Pass: {selectedDemo.credentials?.password ?? 'SmartPortal2026!'}</p>
+                  <p>User: {selectedDemo.credentials?.username ?? 'mandant.demo'}</p>
+                  <p>Pass: {selectedDemo.credentials?.demoPass ?? 'demo'}</p>
                   <p>PIN: {selectedDemo.credentials?.pin ?? '4829'}</p>
                 </div>
               </div>

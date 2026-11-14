@@ -58,8 +58,8 @@ export const DEMOS_GROUP_B: readonly DemoVerticalConfig[] = [
     numberLabel: '07',
     accessMode: 'pin_protected',
     credentials: {
-      username: 'mandant.mueller',
-      password: 'Kanzlei2026!DACH',
+      username: 'mandant.demo',
+      demoPass: 'demo',
       pin: '4829',
     },
     companyName: 'Kanzlei Dr. Lindner & Partner mbB',
@@ -89,8 +89,8 @@ export const DEMOS_GROUP_B: readonly DemoVerticalConfig[] = [
     numberLabel: '08',
     accessMode: 'pin_protected',
     credentials: {
-      username: 'firma.weber',
-      password: 'Finanz2026!Rhein',
+      username: 'firma.demo',
+      demoPass: 'demo',
       pin: '7391',
     },
     companyName: 'FinanzHaus Rhein Steuer & Versicherung',

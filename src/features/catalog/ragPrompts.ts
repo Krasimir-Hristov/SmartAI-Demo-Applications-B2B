@@ -54,7 +54,7 @@ const EXTRA_RAG_FACTS: Record<DemoVerticalSlug, string> = {
   'hospitality-stay': `
 [VERIFIZIERTE AKTE: AlpenGlüh Boutique Chalets (SmartScan Stay) | Ref: STAY-GAP-2026-409]
 - Gast: Lukas & Mia Schneider | Reisezeitraum: 19.11.–24.11.2026 (5 Nächte) | Chalet Zugspitze #4, Garmisch-Partenkirchen.
-- Zugang & WLAN: Kontaktloser 24/7 Check-in ab 15:00 Uhr via Nuki Smart Keypad PIN #849201. Highspeed Glasfaser-WLAN SSID "AlpenGlueh_5G", Passwort "Zugspitze2026!". Check-out bis 10:30 Uhr (Late Check-out bis 13:00 Uhr für +45 € buchbar).
+- Zugang & WLAN: Kontaktloser 24/7 Check-in ab 15:00 Uhr via Nuki Smart Keypad PIN #849201. Highspeed Glasfaser-WLAN SSID "AlpenGlueh_5G", Passwort "demo-wifi". Check-out bis 10:30 Uhr (Late Check-out bis 13:00 Uhr für +45 € buchbar).
 - Ausstattung & Wellness: Private finnische Zirbensauna im Chalet (Schalter rechts neben Badezimmerspiegel, heizt in ca. 25 Min. auf 85 °C). 11 kW Wallbox an Carport #4 (Aktivierung mit RFID-Chip am Schlüsselbund).
 - Services & Gastronomie: Frühstückskorb "Gipfelglück" (18 €/Tag für 2 Personen) wird um 07:30 Uhr vor die Tür geliefert (Vorbestellung bis 18:00 Uhr). Zugspitzbahn 8 Min. Fahrt. Restaurants im Ort: Gasthof Zum Wildschütz (600 m), Alpenhof Bistro. Ruhezeiten auf der Terrasse ab 22:00 Uhr.`,
 
