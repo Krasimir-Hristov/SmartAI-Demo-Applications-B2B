@@ -84,12 +84,20 @@
     "liveBadge": "OpenRouter RAG Aktiv",
     "fallbackBadge": "Lokale RAG-Engine",
     "quickQuestionsLabel": "Schnellfragen zum Dokument:",
-    "inputPlaceholder": "Frage zu Preisen, Fristen oder Klauseln stellen...",
+    "inputPlaceholder": "Frage stellen oder per Mikrofon diktieren...",
     "sendButton": "Senden",
     "clearButton": "Zurücksetzen",
     "thinkingLabel": "Prüft die Kundenunterlagen...",
     "errorFallback": "Verbindung kurz unterbrochen – bitte erneut senden.",
-    "disclaimer": "Antwortet strikt auf Basis der freigegebenen Unterlagen und automatisch in Ihrer Sprache."
+    "disclaimer": "Antwortet strikt auf Basis der freigegebenen Unterlagen und automatisch in Ihrer Sprache.",
+    "shortSummaryLabel": "Angebot kurz",
+    "miniOfferLabel": "Starter / Mini-Option",
+    "voiceStart": "Sprechen",
+    "voiceStop": "Stopp",
+    "voiceListening": "Höre zu… klicken zum Stoppen",
+    "voiceTranscribing": "Audio wird transkribiert…",
+    "voiceUnsupported": "Mikrofon oder Spracherkennung wird in diesem Browser nicht unterstützt.",
+    "voiceError": "Sprachaufnahme fehlgeschlagen – bitte Mikrofonfreigabe prüfen."
   },
   "admin": {
     "badge": "Admin-Dashboard Vorschau",

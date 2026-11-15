@@ -1,10 +1,12 @@
 'use client';
 
 import React from 'react';
+import Image from 'next/image';
 import Link from 'next/link';
 import { ArrowUpRight, FileText, Globe, Lock, MapPin, QrCode, Unlock } from 'lucide-react';
-import { useTranslations } from 'next-intl';
-import { useDemoCopy, type DemoVerticalConfig } from '@/features/catalog';
+import { useLocale, useTranslations } from 'next-intl';
+import { MINI_OFFER_SUMMARIES, useDemoCopy, type DemoVerticalConfig } from '@/features/catalog';
+import type { SupportedLocale } from '@/features/i18n';
 
 interface DemoCardProps {
   demo: DemoVerticalConfig;
@@ -12,8 +14,10 @@ interface DemoCardProps {
 }
 
 export const DemoCard: React.FC<DemoCardProps> = ({ demo, onOpenQr }) => {
+  const locale = useLocale() as SupportedLocale;
   const tCard = useTranslations('card');
   const demoCopy = useDemoCopy(demo.slug);
+  const miniOffer = MINI_OFFER_SUMMARIES[demo.slug][locale];
 
   const renderAccessBadge = () => {
     if (demo.accessMode === 'pin_protected') {
@@ -72,6 +76,10 @@ export const DemoCard: React.FC<DemoCardProps> = ({ demo, onOpenQr }) => {
           </span>
         </div>
 
+        <p className="mb-1 text-[11px] font-semibold text-emerald-300">
+          {miniOffer.shortSummary}
+        </p>
+
         <h3 className="text-lg font-bold tracking-tight text-zinc-50 mb-2 font-display">
           {demoCopy.title}
         </h3>
@@ -80,9 +88,31 @@ export const DemoCard: React.FC<DemoCardProps> = ({ demo, onOpenQr }) => {
           {demoCopy.subtitle}
         </p>
 
-        <div className="mb-4 flex items-center justify-between rounded-xl border border-zinc-800/80 bg-zinc-950/75 px-3.5 py-2.5">
-          <span className="text-[11px] font-mono text-zinc-500">{demo.offerReference}</span>
-          <span className="text-xs sm:text-sm font-bold text-zinc-100">{demo.headlineValue}</span>
+        {demo.previewImageSrc && (
+          <div className="relative mb-4 aspect-video w-full overflow-hidden rounded-2xl border border-zinc-800/90 bg-zinc-950">
+            <Image
+              src={demo.previewImageSrc}
+              alt={demoCopy.title}
+              fill
+              sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 33vw"
+              className="object-cover transition-transform duration-500 group-hover:scale-105"
+            />
+            <div className="absolute inset-x-0 bottom-0 flex items-center justify-end bg-linear-to-t from-black/80 via-black/30 to-transparent px-3 py-2">
+              <span className="rounded-lg border border-zinc-700/80 bg-zinc-950/90 px-2.5 py-1 text-[11px] font-bold text-zinc-100 backdrop-blur-xs">
+                {demo.headlineValue}
+              </span>
+            </div>
+          </div>
+        )}
+
+        <div className="mb-4 space-y-1.5 rounded-xl border border-zinc-800/80 bg-zinc-950/75 px-3.5 py-2.5">
+          <div className="flex items-center justify-between gap-2">
+            <span className="text-[11px] font-mono text-zinc-500">{demo.offerReference}</span>
+            <span className="text-xs sm:text-sm font-bold text-zinc-100">{demo.headlineValue}</span>
+          </div>
+          <p className="truncate text-[11px] text-amber-300/90">
+            {miniOffer.miniOfferTitle} • <span className="font-semibold">{miniOffer.miniOfferPrice}</span>
+          </p>
         </div>
 
         <div className="mb-5">

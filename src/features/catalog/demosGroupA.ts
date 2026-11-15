@@ -10,6 +10,7 @@ export const DEMOS_GROUP_A: readonly DemoVerticalConfig[] = [
     clientName: 'TechVision DACH GmbH',
     offerReference: 'ANG-2026-MUC-041',
     headlineValue: '14.800 € / Quartal',
+    previewImageSrc: '/images/marketing/hero-campaign-analytics.jpg',
     accent: {
       badgeClasses: 'border-violet-500/30 bg-violet-500/15 text-violet-300',
       borderHoverClasses: 'hover:border-violet-500/50',
@@ -36,6 +37,7 @@ export const DEMOS_GROUP_A: readonly DemoVerticalConfig[] = [
     clientName: 'Dr. Tobias & Elena Hartmann',
     offerReference: 'EXP-MUC-2026-884',
     headlineValue: '2.450.000 €',
+    previewImageSrc: '/images/real-estate/penthouse-terrace-munich.jpg',
     accent: {
       badgeClasses: 'border-amber-500/30 bg-amber-500/15 text-amber-300',
       borderHoverClasses: 'hover:border-amber-500/50',
@@ -62,6 +64,7 @@ export const DEMOS_GROUP_A: readonly DemoVerticalConfig[] = [
     clientName: 'Stefan Becker (Geschäftsführer)',
     offerReference: 'LEA-STR-2026-904',
     headlineValue: '1.190 € / Monat',
+    previewImageSrc: '/images/auto/taycan-exterior-stuttgart.jpg',
     accent: {
       badgeClasses: 'border-sky-500/30 bg-sky-500/15 text-sky-300',
       borderHoverClasses: 'hover:border-sky-500/50',
@@ -88,6 +91,7 @@ export const DEMOS_GROUP_A: readonly DemoVerticalConfig[] = [
     clientName: 'Patientin: Katrin Hoffmann',
     offerReference: 'HKP-FFM-2026-312',
     headlineValue: '6.850 € (Eigenanteil 3.940 €)',
+    previewImageSrc: '/images/medical/dental-3d-implant-plan.jpg',
     accent: {
       badgeClasses: 'border-rose-500/30 bg-rose-500/15 text-rose-300',
       borderHoverClasses: 'hover:border-rose-500/50',

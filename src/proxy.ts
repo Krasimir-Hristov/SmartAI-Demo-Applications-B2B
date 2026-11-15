@@ -1,5 +1,5 @@
 import { NextResponse, type NextRequest } from 'next/server';
-import { scrubExternalHeaders } from '@/lib/security/headerScrubber';
+import { hasExternalXHeaders, scrubExternalHeaders } from '@/lib/security/headerScrubber';
 
 const applySecurityHeaders = (res: NextResponse): NextResponse => {
   res.headers.set('X-Content-Type-Options', 'nosniff');
@@ -15,12 +15,15 @@ const applySecurityHeaders = (res: NextResponse): NextResponse => {
 export const proxy = (request: NextRequest): NextResponse => {
   try {
     const cleanHeaders = scrubExternalHeaders(request.headers);
+    const needsHeaderOverride = hasExternalXHeaders(request.headers);
 
-    const response = NextResponse.next({
-      request: {
-        headers: cleanHeaders,
-      },
-    });
+    const response = needsHeaderOverride
+      ? NextResponse.next({
+          request: {
+            headers: cleanHeaders,
+          },
+        })
+      : NextResponse.next();
 
     return applySecurityHeaders(response);
   } catch {

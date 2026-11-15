@@ -56,7 +56,11 @@ export const I18nClientProvider: React.FC<I18nClientProviderProps> = ({
 
   return (
     <I18nContext.Provider value={{ locale: currentLocale, setLocale: handleSetLocale }}>
-      <NextIntlClientProvider locale={currentLocale} messages={currentMessages}>
+      <NextIntlClientProvider
+        locale={currentLocale}
+        messages={currentMessages}
+        timeZone="Europe/Berlin"
+      >
         {children}
       </NextIntlClientProvider>
     </I18nContext.Provider>

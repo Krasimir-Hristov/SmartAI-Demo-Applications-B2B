@@ -65,6 +65,7 @@ export const POST = async (request: NextRequest): Promise<NextResponse> => {
     const env = getAppEnvConfig();
 
     if (!env.OPENROUTER_API_KEY) {
+      console.warn('[api/chat] Fallback reason: missing OPENROUTER_API_KEY');
       return NextResponse.json({
         reply: buildFallbackRagReply(demo, demoCopy, locale, lastUserMessage),
         engine: 'fallback' as const,
@@ -80,7 +81,7 @@ export const POST = async (request: NextRequest): Promise<NextResponse> => {
           Authorization: `Bearer ${env.OPENROUTER_API_KEY}`,
           'Content-Type': 'application/json',
           'HTTP-Referer': env.NEXT_PUBLIC_APP_URL,
-          'X-Title': 'SmartAI Demo Applications — Custom RAG Client Portals',
+          'X-Title': 'SmartAI Demo Applications - Custom RAG Client Portals',
         },
         body: JSON.stringify({
           model: env.OPENROUTER_MODEL,
@@ -95,6 +96,7 @@ export const POST = async (request: NextRequest): Promise<NextResponse> => {
       });
 
       if (!upstream.ok) {
+        console.warn('[api/chat] Fallback reason: OpenRouter HTTP', upstream.status);
         return NextResponse.json({
           reply: buildFallbackRagReply(demo, demoCopy, locale, lastUserMessage),
           engine: 'fallback' as const,

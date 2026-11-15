@@ -84,12 +84,20 @@
     "liveBadge": "OpenRouter RAG Live",
     "fallbackBadge": "Local RAG Engine",
     "quickQuestionsLabel": "Quick questions about this file:",
-    "inputPlaceholder": "Ask about pricing, timelines, or clauses...",
+    "inputPlaceholder": "Ask a question or dictate via microphone...",
     "sendButton": "Send",
     "clearButton": "Reset",
     "thinkingLabel": "Checking verified client dossier...",
     "errorFallback": "Temporary connection issue — please try again.",
-    "disclaimer": "Answers strictly from verified client documents and responds in your language automatically."
+    "disclaimer": "Answers strictly from verified client documents and responds in your language automatically.",
+    "shortSummaryLabel": "Offer summary",
+    "miniOfferLabel": "Starter / Mini-Option",
+    "voiceStart": "Dictate",
+    "voiceStop": "Stop",
+    "voiceListening": "Listening… click to stop",
+    "voiceTranscribing": "Transcribing voice…",
+    "voiceUnsupported": "Microphone or speech recognition is unavailable in this browser.",
+    "voiceError": "Voice capture failed — please check microphone permissions."
   },
   "admin": {
     "badge": "Admin Dashboard Preview",

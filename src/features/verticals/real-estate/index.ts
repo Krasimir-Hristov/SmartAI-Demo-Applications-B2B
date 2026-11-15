@@ -1,0 +1,1 @@
+export { RealEstatePortal } from './RealEstatePortal';

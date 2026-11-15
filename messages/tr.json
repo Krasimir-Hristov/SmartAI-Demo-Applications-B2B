@@ -84,12 +84,20 @@
     "liveBadge": "OpenRouter RAG Aktif",
     "fallbackBadge": "Yerel RAG Motoru",
     "quickQuestionsLabel": "Belge hakkında hızlı sorular:",
-    "inputPlaceholder": "Fiyat, süre veya maddeler hakkında soru sorun...",
+    "inputPlaceholder": "Soru yazın veya mikrofonla dikte edin...",
     "sendButton": "Gönder",
     "clearButton": "Sıfırla",
     "thinkingLabel": "Müşteri belgeleri inceleniyor...",
     "errorFallback": "Geçici bağlantı hatası — lütfen tekrar deneyin.",
-    "disclaimer": "Yalnızca onaylı müşteri belgelerine göre yanıt verir ve dilinizi otomatik algılar."
+    "disclaimer": "Yalnızca onaylı müşteri belgelerine göre yanıt verir ve dilinizi otomatik algılar.",
+    "shortSummaryLabel": "Teklif özeti",
+    "miniOfferLabel": "Küçük Seçenek",
+    "voiceStart": "Dikte Et",
+    "voiceStop": "Durdur",
+    "voiceListening": "Dinleniyor… bitirmek için tıklayın",
+    "voiceTranscribing": "Ses metne dönüştürülüyor…",
+    "voiceUnsupported": "Bu tarayıcıda mikrofon veya ses tanıma desteklenmiyor.",
+    "voiceError": "Ses kaydı başarısız — lütfen mikrofon iznini kontrol edin."
   },
   "admin": {
     "badge": "Yönetici Paneli Önizlemesi",

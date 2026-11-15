@@ -1,9 +1,11 @@
 'use client';
 
-import React, { useState } from 'react';
-import { Bot, CheckCircle2, FileText, MapPin, Sparkles, UserCheck } from 'lucide-react';
-import { useTranslations } from 'next-intl';
-import { useDemoCopy, type DemoVerticalConfig } from '@/features/catalog';
+import React from 'react';
+import { Bot, CheckCircle2, MapPin, UserCheck } from 'lucide-react';
+import { useLocale, useTranslations } from 'next-intl';
+import { MINI_OFFER_SUMMARIES, useDemoCopy, type DemoVerticalConfig } from '@/features/catalog';
+import type { SupportedLocale } from '@/features/i18n';
+import { DealConversionBar, IndexedDocsCard } from '@/features/verticals/shared';
 
 interface DemoDossierViewProps {
   demo: DemoVerticalConfig;
@@ -16,14 +18,10 @@ export const DemoDossierView: React.FC<DemoDossierViewProps> = ({
   isChatCollapsed,
   onExpandChat,
 }) => {
+  const locale = useLocale() as SupportedLocale;
   const tPortal = useTranslations('portal');
   const demoCopy = useDemoCopy(demo.slug);
-  const [showActionToast, setShowActionToast] = useState(false);
-
-  const handleSimulatedAction = () => {
-    setShowActionToast(true);
-    window.setTimeout(() => setShowActionToast(false), 4500);
-  };
+  const miniOffer = MINI_OFFER_SUMMARIES[demo.slug][locale];
 
   return (
     <div className={isChatCollapsed ? 'lg:col-span-12 space-y-6' : 'lg:col-span-7 space-y-6'}>
@@ -50,6 +48,7 @@ export const DemoDossierView: React.FC<DemoDossierViewProps> = ({
             </span>
           </div>
 
+          <p className="mb-1 text-xs font-semibold text-emerald-300">{miniOffer.shortSummary}</p>
           <h1 className="text-2xl sm:text-3xl font-bold tracking-tight text-zinc-50 font-display mb-2">
             {demoCopy.title}
           </h1>
@@ -156,69 +155,9 @@ export const DemoDossierView: React.FC<DemoDossierViewProps> = ({
         })}
       </section>
 
-      <section
-        aria-label={tPortal('documentsHeading')}
-        className="rounded-2xl border border-zinc-800 bg-[#121216]/90 p-5"
-      >
-        <h2 className="text-sm font-bold text-zinc-100 mb-3">
-          {tPortal('documentsHeading')}
-        </h2>
-        <div className="grid grid-cols-1 gap-2.5 sm:grid-cols-3">
-          {demo.documents.map((doc) => (
-            <div
-              key={doc.id}
-              className="rounded-xl border border-zinc-800/90 bg-zinc-950/75 p-3"
-            >
-              <div className="flex items-center justify-between gap-2 mb-1.5">
-                <FileText className="h-4 w-4 text-emerald-400" aria-hidden="true" />
-                <span className="rounded bg-zinc-900 px-1.5 py-0.5 font-mono text-[10px] text-zinc-400">
-                  {doc.fileType} • {doc.sizeLabel}
-                </span>
-              </div>
-              <p className="truncate text-xs font-semibold text-zinc-100">
-                {demoCopy.documents[doc.id] ?? doc.fileName}
-              </p>
-              <p className="truncate font-mono text-[11px] text-zinc-500">
-                {doc.fileName}
-              </p>
-            </div>
-          ))}
-        </div>
-      </section>
+      <IndexedDocsCard demo={demo} />
 
-      <section
-        aria-label={tPortal('agenticPreviewHeading')}
-        className="rounded-2xl border border-amber-500/25 bg-linear-to-r from-amber-500/10 via-[#121216] to-[#121216] p-5"
-      >
-        <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
-          <div>
-            <span className="inline-flex items-center gap-1.5 text-[11px] font-semibold uppercase tracking-wider text-amber-300 mb-1">
-              <Sparkles className="h-3.5 w-3.5" aria-hidden="true" />
-              <span>{tPortal('agenticPreviewHeading')}</span>
-            </span>
-            <p className="text-sm font-medium text-zinc-200">
-              {demoCopy.agenticCapabilityHint}
-            </p>
-          </div>
-          <button
-            type="button"
-            onClick={handleSimulatedAction}
-            aria-label={tPortal('agenticPreviewCta')}
-            className="shrink-0 rounded-xl border border-amber-400/40 bg-amber-400/15 px-4 py-2 text-xs font-semibold text-amber-200 transition hover:bg-amber-400/25"
-          >
-            {tPortal('agenticPreviewCta')}
-          </button>
-        </div>
-
-        {showActionToast && (
-          <p
-            role="status"
-            className="mt-3 rounded-xl border border-emerald-500/30 bg-emerald-500/10 px-3.5 py-2 text-xs text-emerald-200"
-          >
-            {tPortal('agenticPreviewToast')}
-          </p>
-        )}
-      </section>
+      <DealConversionBar demo={demo} />
     </div>
   );
 };

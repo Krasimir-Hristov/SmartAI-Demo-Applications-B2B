@@ -51,6 +51,7 @@ export interface DemoVerticalConfig {
   clientName: string;
   offerReference: string;
   headlineValue: string;
+  previewImageSrc?: string;
   accent: DemoAccentPalette;
   documents: readonly DemoDocumentMeta[];
   dossierSections: readonly DemoSectionMeta[];

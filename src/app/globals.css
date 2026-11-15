@@ -7,9 +7,12 @@
 }
 
 @layer base {
-  html,
+  html {
+    @apply bg-[#09090b] text-zinc-100 antialiased;
+  }
+
   body {
-    @apply bg-[#09090b] text-zinc-100 antialiased overflow-x-hidden;
+    @apply bg-[#09090b] text-zinc-100 antialiased overflow-x-clip;
   }
 
   button:not(:disabled),
