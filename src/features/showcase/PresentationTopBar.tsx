@@ -2,11 +2,11 @@
 
 import React from 'react';
 import Link from 'next/link';
-import { ArrowLeft, LayoutGrid, QrCode, Settings2, Sparkles } from 'lucide-react';
+import { ArrowLeft, LayoutGrid, Network, QrCode, Settings2, Sparkles } from 'lucide-react';
 import { useTranslations } from 'next-intl';
 import { LanguageSwitcher } from '@/features/i18n';
 
-export type PresentationMode = 'client' | 'admin';
+export type PresentationMode = 'client' | 'admin' | 'enterprise';
 
 interface PresentationTopBarProps {
   mode: PresentationMode;
@@ -103,6 +103,21 @@ export const PresentationTopBar: React.FC<PresentationTopBarProps> = ({
             >
               <Settings2 className="h-3.5 w-3.5" aria-hidden="true" />
               <span>{tNav('adminView')}</span>
+            </button>
+
+            <button
+              type="button"
+              onClick={() => onModeChange('enterprise')}
+              aria-label={tNav('enterpriseView')}
+              aria-pressed={mode === 'enterprise'}
+              className={`inline-flex items-center gap-1.5 rounded-lg px-3 py-1.5 text-xs font-semibold transition ${
+                mode === 'enterprise'
+                  ? 'bg-linear-to-r from-sky-400 to-emerald-400 text-zinc-950 shadow-sm'
+                  : 'text-emerald-300 hover:text-zinc-100'
+              }`}
+            >
+              <Network className="h-3.5 w-3.5" aria-hidden="true" />
+              <span>{tNav('enterpriseView')}</span>
             </button>
           </div>
 

@@ -5,6 +5,7 @@ import { Bot } from 'lucide-react';
 import { useTranslations } from 'next-intl';
 import { AdminDashboardPreview } from '@/features/admin-preview';
 import type { DemoVerticalConfig } from '@/features/catalog';
+import { EnterpriseArchitectureView } from '@/features/enterprise-architecture';
 import { RagChatWidget } from '@/features/rag-chat';
 import {
   PresentationTopBar,
@@ -94,6 +95,8 @@ export const DemoPortalShell: React.FC<DemoPortalShellProps> = ({ demo }) => {
             initialSlug={demo.slug}
             onOpenQr={() => setShowQrModal(true)}
           />
+        ) : mode === 'enterprise' ? (
+          <EnterpriseArchitectureView />
         ) : demo.accessMode === 'pin_protected' && !isUnlocked && demo.credentials ? (
           <ProtectedPinGate
             demo={demo}

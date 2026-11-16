@@ -5,6 +5,7 @@ import { CalendarCheck2, CheckCircle2, FileCheck2, Link2, ShieldCheck, Sparkles 
 import { useTranslations } from 'next-intl';
 import { AdminDashboardPreview } from '@/features/admin-preview';
 import { ALL_DEMOS, type DemoVerticalConfig } from '@/features/catalog';
+import { EnterpriseArchitectureView } from '@/features/enterprise-architecture';
 import { DemoCard } from './DemoCard';
 import { PresentationTopBar, type PresentationMode } from './PresentationTopBar';
 import { QrLinkModal } from './QrLinkModal';
@@ -33,6 +34,8 @@ export const ShowcaseHub: React.FC = () => {
       <main className="flex-1">
         {mode === 'admin' ? (
           <AdminDashboardPreview onOpenQr={(demo) => setQrDemo(demo)} />
+        ) : mode === 'enterprise' ? (
+          <EnterpriseArchitectureView />
         ) : (
           <>
             <section
