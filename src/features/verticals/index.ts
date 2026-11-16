@@ -4,3 +4,7 @@ export { MarketingAgencyPortal } from './marketing';
 export { RealEstatePortal } from './real-estate';
 export { AutoLeasingPortal } from './auto-leasing';
 export { MedicalClinicPortal } from './medical-clinic';
+export { ConstructionInteriorPortal } from './ConstructionInteriorPortal';
+export { HospitalityStayPortal } from './HospitalityStayPortal';
+export { LegalContractsPortal } from './LegalContractsPortal';
+export { FinanceAccountingPortal } from './FinanceAccountingPortal';

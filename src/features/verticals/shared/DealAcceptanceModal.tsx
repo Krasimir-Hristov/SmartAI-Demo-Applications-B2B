@@ -43,11 +43,9 @@ export const DealAcceptanceModal: React.FC<DealAcceptanceModalProps> = ({
   }
 
   const chosenPackageLabel =
-    mode === 'meeting'
-      ? `${slugCta.secondaryLabel} (${selectedSlot})`
-      : selectedChoice === 'main'
-        ? `${ui.mainOfferBadge}: ${demo.headlineValue}`
-        : `${ui.miniOfferBadge}: ${miniOffer.miniOfferPrice}`;
+    selectedChoice === 'main'
+      ? `${ui.mainOfferBadge}: ${demo.headlineValue} (${selectedSlot})`
+      : `${ui.miniOfferBadge}: ${miniOffer.miniOfferPrice} (${selectedSlot})`;
 
   const handleConfirm = () => {
     if (!agreed) {
@@ -146,80 +144,78 @@ export const DealAcceptanceModal: React.FC<DealAcceptanceModalProps> = ({
             </div>
           ) : (
             <div className="space-y-4">
-              {mode === 'accept' ? (
-                <div className="space-y-2.5">
-                  <p className="text-xs font-semibold text-zinc-300">{ui.selectTierLabel}</p>
+              <div className="space-y-2.5">
+                <p className="text-xs font-semibold text-zinc-300">{ui.selectTierLabel}</p>
 
-                  <button
-                    type="button"
-                    onClick={() => setSelectedChoice('main')}
-                    aria-label={`${ui.mainOfferBadge}: ${demo.headlineValue}`}
-                    aria-pressed={selectedChoice === 'main'}
-                    className={`w-full rounded-2xl border p-3.5 text-left transition ${
-                      selectedChoice === 'main'
-                        ? 'border-emerald-500/60 bg-emerald-500/10'
-                        : 'border-zinc-800 bg-zinc-950/75 hover:border-zinc-700'
-                    }`}
-                  >
-                    <div className="flex items-center justify-between gap-2">
-                      <span className="text-xs font-semibold text-zinc-300">
-                        {ui.mainOfferBadge}
-                      </span>
-                      <span className="text-sm font-bold text-emerald-300">
-                        {demo.headlineValue}
-                      </span>
-                    </div>
-                    <p className="mt-1 text-xs text-zinc-400">{miniOffer.shortSummary}</p>
-                  </button>
-
-                  <button
-                    type="button"
-                    onClick={() => setSelectedChoice('mini')}
-                    aria-label={`${ui.miniOfferBadge}: ${miniOffer.miniOfferPrice}`}
-                    aria-pressed={selectedChoice === 'mini'}
-                    className={`w-full rounded-2xl border p-3.5 text-left transition ${
-                      selectedChoice === 'mini'
-                        ? 'border-emerald-500/60 bg-emerald-500/10'
-                        : 'border-zinc-800 bg-zinc-950/75 hover:border-zinc-700'
-                    }`}
-                  >
-                    <div className="flex items-center justify-between gap-2">
-                      <span className="text-xs font-semibold text-zinc-300">
-                        {ui.miniOfferBadge}
-                      </span>
-                      <span className="text-sm font-bold text-amber-300">
-                        {miniOffer.miniOfferPrice}
-                      </span>
-                    </div>
-                    <p className="mt-1 text-xs text-zinc-400">{miniOffer.miniOfferDetails}</p>
-                  </button>
-                </div>
-              ) : (
-                <div className="space-y-2">
-                  <p className="flex items-center gap-1.5 text-xs font-semibold text-zinc-300">
-                    <Calendar className="h-3.5 w-3.5 text-emerald-400" aria-hidden="true" />
-                    <span>{ui.selectSlotLabel}</span>
-                  </p>
-                  <div className="grid grid-cols-1 gap-2 sm:grid-cols-3">
-                    {ui.slots.map((slot) => (
-                      <button
-                        key={slot}
-                        type="button"
-                        onClick={() => setSelectedSlot(slot)}
-                        aria-label={slot}
-                        aria-pressed={selectedSlot === slot}
-                        className={`rounded-xl border px-3 py-2 text-xs font-medium transition ${
-                          selectedSlot === slot
-                            ? 'border-emerald-500/60 bg-emerald-500/15 text-emerald-200'
-                            : 'border-zinc-800 bg-zinc-950/80 text-zinc-300 hover:border-zinc-700'
-                        }`}
-                      >
-                        {slot}
-                      </button>
-                    ))}
+                <button
+                  type="button"
+                  onClick={() => setSelectedChoice('main')}
+                  aria-label={`${ui.mainOfferBadge}: ${demo.headlineValue}`}
+                  aria-pressed={selectedChoice === 'main'}
+                  className={`w-full rounded-2xl border p-3.5 text-left transition ${
+                    selectedChoice === 'main'
+                      ? 'border-emerald-500/60 bg-emerald-500/10'
+                      : 'border-zinc-800 bg-zinc-950/75 hover:border-zinc-700'
+                  }`}
+                >
+                  <div className="flex items-center justify-between gap-2">
+                    <span className="text-xs font-semibold text-zinc-300">
+                      {ui.mainOfferBadge}
+                    </span>
+                    <span className="text-sm font-bold text-emerald-300">
+                      {demo.headlineValue}
+                    </span>
                   </div>
+                  <p className="mt-1 text-xs text-zinc-400">{miniOffer.shortSummary}</p>
+                </button>
+
+                <button
+                  type="button"
+                  onClick={() => setSelectedChoice('mini')}
+                  aria-label={`${ui.miniOfferBadge}: ${miniOffer.miniOfferPrice}`}
+                  aria-pressed={selectedChoice === 'mini'}
+                  className={`w-full rounded-2xl border p-3.5 text-left transition ${
+                    selectedChoice === 'mini'
+                      ? 'border-emerald-500/60 bg-emerald-500/10'
+                      : 'border-zinc-800 bg-zinc-950/75 hover:border-zinc-700'
+                  }`}
+                >
+                  <div className="flex items-center justify-between gap-2">
+                    <span className="text-xs font-semibold text-zinc-300">
+                      {ui.miniOfferBadge}
+                    </span>
+                    <span className="text-sm font-bold text-amber-300">
+                      {miniOffer.miniOfferPrice}
+                    </span>
+                  </div>
+                  <p className="mt-1 text-xs text-zinc-400">{miniOffer.miniOfferDetails}</p>
+                </button>
+              </div>
+
+              <div className="space-y-2">
+                <p className="flex items-center gap-1.5 text-xs font-semibold text-zinc-300">
+                  <Calendar className="h-3.5 w-3.5 text-emerald-400" aria-hidden="true" />
+                  <span>{ui.selectSlotLabel}</span>
+                </p>
+                <div className="grid grid-cols-1 gap-2 sm:grid-cols-3">
+                  {ui.slots.map((slot) => (
+                    <button
+                      key={slot}
+                      type="button"
+                      onClick={() => setSelectedSlot(slot)}
+                      aria-label={slot}
+                      aria-pressed={selectedSlot === slot}
+                      className={`rounded-xl border px-3 py-2 text-xs font-medium transition ${
+                        selectedSlot === slot
+                          ? 'border-emerald-500/60 bg-emerald-500/15 text-emerald-200'
+                          : 'border-zinc-800 bg-zinc-950/80 text-zinc-300 hover:border-zinc-700'
+                      }`}
+                    >
+                      {slot}
+                    </button>
+                  ))}
                 </div>
-              )}
+              </div>
 
               <label className="flex cursor-pointer items-start gap-2.5 rounded-xl border border-zinc-800/90 bg-zinc-950/70 p-3 text-xs text-zinc-300">
                 <input
