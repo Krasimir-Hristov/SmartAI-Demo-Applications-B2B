@@ -17,11 +17,11 @@ const chatRequestSchema = z.object({
     .array(
       z.object({
         role: z.enum(['user', 'assistant']),
-        content: z.string().trim().min(1).max(2000),
+        content: z.string().trim().min(1).max(12000),
       })
     )
     .min(1)
-    .max(20),
+    .max(30),
 });
 
 const openRouterResponseSchema = z.object({

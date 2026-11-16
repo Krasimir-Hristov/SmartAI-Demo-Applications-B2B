@@ -23,6 +23,7 @@ import {
 } from '@/features/catalog';
 import type { AllMessages } from '@/features/i18n';
 import { AdminDocumentsCard, type AdminDisplayDoc } from './AdminDocumentsCard';
+import { AdminSystemPromptCard } from './AdminSystemPromptCard';
 
 interface AdminDashboardPreviewProps {
   initialSlug?: DemoVerticalSlug;
@@ -271,6 +272,12 @@ export const AdminDashboardPreview: React.FC<AdminDashboardPreviewProps> = ({
           </Link>
         </article>
       </div>
+
+      <AdminSystemPromptCard
+        demo={selectedDemo}
+        demoCopy={activeCopy}
+        onSelectSlug={setSelectedSlug}
+      />
     </section>
   );
 };

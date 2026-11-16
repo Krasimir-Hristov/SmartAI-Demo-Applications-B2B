@@ -56,10 +56,12 @@ export const useRagChat = (demo: DemoVerticalConfig): UseRagChatResult => {
         content: text,
       };
 
-      const conversationHistory = [...userMessages, nextUserMsg].map((msg) => ({
-        role: msg.role,
-        content: msg.content,
-      }));
+      const conversationHistory = [...userMessages, nextUserMsg]
+        .slice(-12)
+        .map((msg) => ({
+          role: msg.role,
+          content: msg.content.slice(0, 8000),
+        }));
 
       setUserMessages((prev) => [...prev, nextUserMsg]);
       setIsLoading(true);
